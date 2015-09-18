@@ -2,12 +2,14 @@
 
 A library that provides IETF language tags with English names, and official/common languages/language codes for countries and sovereign states.
 
+![]https://cloud.githubusercontent.com/assets/3952537/9949310/e31e04b0-5d5f-11e5-800e-1252f9f3cb53.png
+
 ### Usage:
 
 ```
 var mun = require('model-un');
 
-// functions takes either:
+// functions take either:
 // a 2-3 letter (ISO 639-1 preferred, 639-2B - 2T fallback) language code or a language name
 // or
 // a 2 letter (ISO) country code or country name
