@@ -59,6 +59,10 @@ tape('hasLanguage', function(assert) {
     assert.equal(mun.hasLanguage('en'), true, 'en');
     assert.equal(mun.hasLanguage('EN'), false, 'EN');
 
+    assert.equal(mun.hasLanguage('en-US'), true, 'en-US');
+    assert.equal(mun.hasLanguage('en-US-Latn'), true, 'en-US-Latn');
+    assert.equal(mun.hasLanguage('en-Fake'), false, 'en-Fake');
+
     assert.equal(mun.hasLanguage('English'), true, 'English');
     assert.equal(mun.hasLanguage('english'), false, 'english');
 
@@ -133,7 +137,6 @@ tape('getLanguage -- by code', function(assert) {
     // will construct an array for language codes
     // with IETF subtags
     var enUS = mun.getLanguage('en-US');
-    console.log(enUS)
     assert.equal(enUS.length, 2, 'en-US');
     assert.equal(enUS[0].type, 'language', 'en-US');
     assert.equal(enUS[0].description, 'English', 'en-US');

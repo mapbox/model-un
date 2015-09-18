@@ -6,8 +6,17 @@ var country_ref = require('./data/countryref');
 module.exports = {};
 
 module.exports.hasLanguage = function(str) {
-    str = language_ref[str];
-    return void(0) !== str;
+    if (language_ref[str]) return true;
+
+    str = str.split('-');
+    if (str.length > 1) {
+        var match = true;
+        str.forEach(function(d) {
+            if (!language_ref[d]) match = false;
+        });
+        return match;
+    }
+    return false;
 }
 
 module.exports.hasCountry = function(str) {
@@ -102,5 +111,3 @@ function camelcase(str) {
         });
     }).join(' ');
 }
-
-console.log(language_ref['en'])
