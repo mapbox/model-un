@@ -8,7 +8,7 @@ module.exports = {};
 module.exports.hasLanguage = function(str) {
     if (language_ref[str]) return true;
 
-    str = str.split('-');
+    str = str.replace(/_/g, '-').split('-');
     if (str.length > 1) {
         var match = true;
         str.forEach(function(d) {
@@ -28,7 +28,7 @@ module.exports.getLanguage = function(str) {
     match = language_ref[str];
     if (match) return languages[match];
 
-    str = str.split('-');
+    str = str.replace(/_/g, '-').split('-');
     if (str.length > 1) {
         match = [];
         str.forEach(function(d, i) {
@@ -87,7 +87,7 @@ module.exports.getOfficialLanguages = function(cc, options) {
             if (language_ref[val[i]]) {
                 response.push(languages[language_ref[val[i]]]);
             } else {
-                var lan = val[i].split('-');
+                var lan = val[i].replace(/_/g, '-').split('-');
                 var nested = [];
                 lan.forEach(function(d, i) {
                     var obj = languages[language_ref[d]];

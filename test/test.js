@@ -63,6 +63,10 @@ tape('hasLanguage', function(assert) {
     assert.equal(mun.hasLanguage('en-US-Latn'), true, 'en-US-Latn');
     assert.equal(mun.hasLanguage('en-Fake'), false, 'en-Fake');
 
+    assert.equal(mun.hasLanguage('en_US'), true, 'en_US');
+    assert.equal(mun.hasLanguage('en_US_Latn'), true, 'en_US_Latn');
+    assert.equal(mun.hasLanguage('en_Fake'), false, 'en_Fake');
+
     assert.equal(mun.hasLanguage('English'), true, 'English');
     assert.equal(mun.hasLanguage('english'), false, 'english');
 
@@ -144,6 +148,17 @@ tape('getLanguage -- by code', function(assert) {
     assert.equal(enUS[1].type, 'region', 'en-US');
     assert.equal(enUS[1].description, 'United States', 'en-US');
     assert.equal(enUS[1].subtag, 'US', 'en-US');
+
+    // will construct an array for language codes
+    // with IETF subtags
+    var enUS = mun.getLanguage('en_US');
+    assert.equal(enUS.length, 2, 'en_US');
+    assert.equal(enUS[0].type, 'language', 'en_US');
+    assert.equal(enUS[0].description, 'English', 'en_US');
+    assert.equal(enUS[0].subtag, 'en', 'en_US');
+    assert.equal(enUS[1].type, 'region', 'en_US');
+    assert.equal(enUS[1].description, 'United States', 'en_US');
+    assert.equal(enUS[1].subtag, 'US', 'en_US');
     
 
     var boont = mun.getLanguage('en-boont');

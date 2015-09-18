@@ -16,6 +16,9 @@ var mun = require('model-un');
 // or
 // a 2 letter (ISO) country code or country name
 
+// language code should conform to the IETF code, but may also be written with an underscore
+// e.g. en-US or en_US in order to support postgres column names
+
 mun.hasLanguage('en');
 // true
 mun.hasLanguage('English');
