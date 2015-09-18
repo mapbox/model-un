@@ -1,5 +1,7 @@
 ## model-un
 
+[![Build Status](https://travis-ci.org/mapbox/model-un.svg)](https://travis-ci.org/mapbox/model-un)
+
 A library that provides IETF language tags with English names, and official/common languages/language codes for countries and sovereign states.
 
 ![](https://cloud.githubusercontent.com/assets/3952537/9949310/e31e04b0-5d5f-11e5-800e-1252f9f3cb53.png)
