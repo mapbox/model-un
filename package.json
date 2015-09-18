@@ -1,0 +1,17 @@
+{
+  "name": "languages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "updateAll": "node update.js",
+    "update_languages": "node update.js languages",
+    "update_countries": "node update.js countries"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

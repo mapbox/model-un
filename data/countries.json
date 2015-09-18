@@ -1,0 +1,3477 @@
+[
+  {
+    "iso": "AD",
+    "iso3": "AND",
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "continent": "EU",
+    "postal_code_format": "AD###",
+    "postal_code_regex": "^(?:AD)*(\\d{3})$",
+    "languages": [
+      "ca"
+    ]
+  },
+  {
+    "iso": "AE",
+    "iso3": "ARE",
+    "country": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-AE",
+      "fa",
+      "en",
+      "hi",
+      "ur"
+    ]
+  },
+  {
+    "iso": "AF",
+    "iso3": "AFG",
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fa-AF",
+      "ps",
+      "uz-AF",
+      "tk"
+    ]
+  },
+  {
+    "iso": "AG",
+    "iso3": "ATG",
+    "country": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-AG"
+    ]
+  },
+  {
+    "iso": "AI",
+    "iso3": "AIA",
+    "country": "Anguilla",
+    "capital": "The Valley",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-AI"
+    ]
+  },
+  {
+    "iso": "AL",
+    "iso3": "ALB",
+    "country": "Albania",
+    "capital": "Tirana",
+    "continent": "EU",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "sq",
+      "el"
+    ]
+  },
+  {
+    "iso": "AM",
+    "iso3": "ARM",
+    "country": "Armenia",
+    "capital": "Yerevan",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "iso": "AO",
+    "iso3": "AGO",
+    "country": "Angola",
+    "capital": "Luanda",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "pt-AO"
+    ]
+  },
+  {
+    "iso": "AQ",
+    "iso3": "ATA",
+    "country": "Antarctica",
+    "capital": "",
+    "continent": "AN",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": []
+  },
+  {
+    "iso": "AR",
+    "iso3": "ARG",
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "SA",
+    "postal_code_format": "@####@@@",
+    "postal_code_regex": "^([A-Z]\\d{4}[A-Z]{3})$",
+    "languages": [
+      "es-AR",
+      "en",
+      "it",
+      "de",
+      "fr",
+      "gn"
+    ]
+  },
+  {
+    "iso": "AS",
+    "iso3": "ASM",
+    "country": "American Samoa",
+    "capital": "Pago Pago",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-AS",
+      "sm",
+      "to"
+    ]
+  },
+  {
+    "iso": "AT",
+    "iso3": "AUT",
+    "country": "Austria",
+    "capital": "Vienna",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "de-AT",
+      "hr",
+      "hu",
+      "sl"
+    ]
+  },
+  {
+    "iso": "AU",
+    "iso3": "AUS",
+    "country": "Australia",
+    "capital": "Canberra",
+    "continent": "OC",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "en-AU"
+    ]
+  },
+  {
+    "iso": "AW",
+    "iso3": "ABW",
+    "country": "Aruba",
+    "capital": "Oranjestad",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl-AW",
+      "es",
+      "en"
+    ]
+  },
+  {
+    "iso": "AX",
+    "iso3": "ALA",
+    "country": "Aland Islands",
+    "capital": "Mariehamn",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(?:FI)*(\\d{5})$",
+    "languages": [
+      "sv-AX"
+    ]
+  },
+  {
+    "iso": "AZ",
+    "iso3": "AZE",
+    "country": "Azerbaijan",
+    "capital": "Baku",
+    "continent": "AS",
+    "postal_code_format": "AZ ####",
+    "postal_code_regex": "^(?:AZ)*(\\d{4})$",
+    "languages": [
+      "az",
+      "ru",
+      "hy"
+    ]
+  },
+  {
+    "iso": "BA",
+    "iso3": "BIH",
+    "country": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "bs",
+      "hr-BA",
+      "sr-BA"
+    ]
+  },
+  {
+    "iso": "BB",
+    "iso3": "BRB",
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "continent": "NA",
+    "postal_code_format": "BB#####",
+    "postal_code_regex": "^(?:BB)*(\\d{5})$",
+    "languages": [
+      "en-BB"
+    ]
+  },
+  {
+    "iso": "BD",
+    "iso3": "BGD",
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "AS",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "bn-BD",
+      "en"
+    ]
+  },
+  {
+    "iso": "BE",
+    "iso3": "BEL",
+    "country": "Belgium",
+    "capital": "Brussels",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "nl-BE",
+      "fr-BE",
+      "de-BE"
+    ]
+  },
+  {
+    "iso": "BF",
+    "iso3": "BFA",
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-BF"
+    ]
+  },
+  {
+    "iso": "BG",
+    "iso3": "BGR",
+    "country": "Bulgaria",
+    "capital": "Sofia",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "bg",
+      "tr-BG",
+      "rom"
+    ]
+  },
+  {
+    "iso": "BH",
+    "iso3": "BHR",
+    "country": "Bahrain",
+    "capital": "Manama",
+    "continent": "AS",
+    "postal_code_format": "####|###",
+    "postal_code_regex": "^(\\d{3}\\d?)$",
+    "languages": [
+      "ar-BH",
+      "en",
+      "fa",
+      "ur"
+    ]
+  },
+  {
+    "iso": "BI",
+    "iso3": "BDI",
+    "country": "Burundi",
+    "capital": "Bujumbura",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-BI",
+      "rn"
+    ]
+  },
+  {
+    "iso": "BJ",
+    "iso3": "BEN",
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-BJ"
+    ]
+  },
+  {
+    "iso": "BL",
+    "iso3": "BLM",
+    "country": "Saint Barthelemy",
+    "capital": "Gustavia",
+    "continent": "NA",
+    "postal_code_format": "### ###",
+    "postal_code_regex": "",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "iso": "BM",
+    "iso3": "BMU",
+    "country": "Bermuda",
+    "capital": "Hamilton",
+    "continent": "NA",
+    "postal_code_format": "@@ ##",
+    "postal_code_regex": "^([A-Z]{2}\\d{2})$",
+    "languages": [
+      "en-BM",
+      "pt"
+    ]
+  },
+  {
+    "iso": "BN",
+    "iso3": "BRN",
+    "country": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "AS",
+    "postal_code_format": "@@####",
+    "postal_code_regex": "^([A-Z]{2}\\d{4})$",
+    "languages": [
+      "ms-BN",
+      "en-BN"
+    ]
+  },
+  {
+    "iso": "BO",
+    "iso3": "BOL",
+    "country": "Bolivia",
+    "capital": "Sucre",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "es-BO",
+      "qu",
+      "ay"
+    ]
+  },
+  {
+    "iso": "BQ",
+    "iso3": "BES",
+    "country": "Bonaire, Saint Eustatius and Saba ",
+    "capital": "",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl",
+      "pap",
+      "en"
+    ]
+  },
+  {
+    "iso": "BR",
+    "iso3": "BRA",
+    "country": "Brazil",
+    "capital": "Brasilia",
+    "continent": "SA",
+    "postal_code_format": "#####-###",
+    "postal_code_regex": "^(\\d{8})$",
+    "languages": [
+      "pt-BR",
+      "es",
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "iso": "BS",
+    "iso3": "BHS",
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-BS"
+    ]
+  },
+  {
+    "iso": "BT",
+    "iso3": "BTN",
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "dz"
+    ]
+  },
+  {
+    "iso": "BV",
+    "iso3": "BVT",
+    "country": "Bouvet Island",
+    "capital": "",
+    "continent": "AN",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": []
+  },
+  {
+    "iso": "BW",
+    "iso3": "BWA",
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-BW",
+      "tn-BW"
+    ]
+  },
+  {
+    "iso": "BY",
+    "iso3": "BLR",
+    "country": "Belarus",
+    "capital": "Minsk",
+    "continent": "EU",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "be",
+      "ru"
+    ]
+  },
+  {
+    "iso": "BZ",
+    "iso3": "BLZ",
+    "country": "Belize",
+    "capital": "Belmopan",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-BZ",
+      "es"
+    ]
+  },
+  {
+    "iso": "CA",
+    "iso3": "CAN",
+    "country": "Canada",
+    "capital": "Ottawa",
+    "continent": "NA",
+    "postal_code_format": "@#@ #@#",
+    "postal_code_regex": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ",
+    "languages": [
+      "en-CA",
+      "fr-CA",
+      "iu"
+    ]
+  },
+  {
+    "iso": "CC",
+    "iso3": "CCK",
+    "country": "Cocos Islands",
+    "capital": "West Island",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ms-CC",
+      "en"
+    ]
+  },
+  {
+    "iso": "CD",
+    "iso3": "COD",
+    "country": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-CD",
+      "ln",
+      "kg"
+    ]
+  },
+  {
+    "iso": "CF",
+    "iso3": "CAF",
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-CF",
+      "sg",
+      "ln",
+      "kg"
+    ]
+  },
+  {
+    "iso": "CG",
+    "iso3": "COG",
+    "country": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-CG",
+      "kg",
+      "ln-CG"
+    ]
+  },
+  {
+    "iso": "CH",
+    "iso3": "CHE",
+    "country": "Switzerland",
+    "capital": "Berne",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "de-CH",
+      "fr-CH",
+      "it-CH",
+      "rm"
+    ]
+  },
+  {
+    "iso": "CI",
+    "iso3": "CIV",
+    "country": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-CI"
+    ]
+  },
+  {
+    "iso": "CK",
+    "iso3": "COK",
+    "country": "Cook Islands",
+    "capital": "Avarua",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-CK",
+      "mi"
+    ]
+  },
+  {
+    "iso": "CL",
+    "iso3": "CHL",
+    "country": "Chile",
+    "capital": "Santiago",
+    "continent": "SA",
+    "postal_code_format": "#######",
+    "postal_code_regex": "^(\\d{7})$",
+    "languages": [
+      "es-CL"
+    ]
+  },
+  {
+    "iso": "CM",
+    "iso3": "CMR",
+    "country": "Cameroon",
+    "capital": "Yaounde",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-CM",
+      "fr-CM"
+    ]
+  },
+  {
+    "iso": "CN",
+    "iso3": "CHN",
+    "country": "China",
+    "capital": "Beijing",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "zh-CN",
+      "yue",
+      "wuu",
+      "dta",
+      "ug",
+      "za"
+    ]
+  },
+  {
+    "iso": "CO",
+    "iso3": "COL",
+    "country": "Colombia",
+    "capital": "Bogota",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "es-CO"
+    ]
+  },
+  {
+    "iso": "CR",
+    "iso3": "CRI",
+    "country": "Costa Rica",
+    "capital": "San Jose",
+    "continent": "NA",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "es-CR",
+      "en"
+    ]
+  },
+  {
+    "iso": "CU",
+    "iso3": "CUB",
+    "country": "Cuba",
+    "capital": "Havana",
+    "continent": "NA",
+    "postal_code_format": "CP #####",
+    "postal_code_regex": "^(?:CP)*(\\d{5})$",
+    "languages": [
+      "es-CU"
+    ]
+  },
+  {
+    "iso": "CV",
+    "iso3": "CPV",
+    "country": "Cape Verde",
+    "capital": "Praia",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "pt-CV"
+    ]
+  },
+  {
+    "iso": "CW",
+    "iso3": "CUW",
+    "country": "Curacao",
+    "capital": " Willemstad",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl",
+      "pap"
+    ]
+  },
+  {
+    "iso": "CX",
+    "iso3": "CXR",
+    "country": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "continent": "AS",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "en",
+      "zh",
+      "ms-CC"
+    ]
+  },
+  {
+    "iso": "CY",
+    "iso3": "CYP",
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "el-CY",
+      "tr-CY",
+      "en"
+    ]
+  },
+  {
+    "iso": "CZ",
+    "iso3": "CZE",
+    "country": "Czech Republic",
+    "capital": "Prague",
+    "continent": "EU",
+    "postal_code_format": "### ##",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "cs",
+      "sk"
+    ]
+  },
+  {
+    "iso": "DE",
+    "iso3": "DEU",
+    "country": "Germany",
+    "capital": "Berlin",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "iso": "DJ",
+    "iso3": "DJI",
+    "country": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-DJ",
+      "ar",
+      "so-DJ",
+      "aa"
+    ]
+  },
+  {
+    "iso": "DK",
+    "iso3": "DNK",
+    "country": "Denmark",
+    "capital": "Copenhagen",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "da-DK",
+      "en",
+      "fo",
+      "de-DK"
+    ]
+  },
+  {
+    "iso": "DM",
+    "iso3": "DMA",
+    "country": "Dominica",
+    "capital": "Roseau",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-DM"
+    ]
+  },
+  {
+    "iso": "DO",
+    "iso3": "DOM",
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "es-DO"
+    ]
+  },
+  {
+    "iso": "DZ",
+    "iso3": "DZA",
+    "country": "Algeria",
+    "capital": "Algiers",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-DZ"
+    ]
+  },
+  {
+    "iso": "EC",
+    "iso3": "ECU",
+    "country": "Ecuador",
+    "capital": "Quito",
+    "continent": "SA",
+    "postal_code_format": "@####@",
+    "postal_code_regex": "^([a-zA-Z]\\d{4}[a-zA-Z])$",
+    "languages": [
+      "es-EC"
+    ]
+  },
+  {
+    "iso": "EE",
+    "iso3": "EST",
+    "country": "Estonia",
+    "capital": "Tallinn",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "et",
+      "ru"
+    ]
+  },
+  {
+    "iso": "EG",
+    "iso3": "EGY",
+    "country": "Egypt",
+    "capital": "Cairo",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-EG",
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "iso": "EH",
+    "iso3": "ESH",
+    "country": "Western Sahara",
+    "capital": "El-Aaiun",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar",
+      "mey"
+    ]
+  },
+  {
+    "iso": "ER",
+    "iso3": "ERI",
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "aa-ER",
+      "ar",
+      "tig",
+      "kun",
+      "ti-ER"
+    ]
+  },
+  {
+    "iso": "ES",
+    "iso3": "ESP",
+    "country": "Spain",
+    "capital": "Madrid",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "es-ES",
+      "ca",
+      "gl",
+      "eu",
+      "oc"
+    ]
+  },
+  {
+    "iso": "ET",
+    "iso3": "ETH",
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "am",
+      "en-ET",
+      "om-ET",
+      "ti-ET",
+      "so-ET",
+      "sid"
+    ]
+  },
+  {
+    "iso": "FI",
+    "iso3": "FIN",
+    "country": "Finland",
+    "capital": "Helsinki",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(?:FI)*(\\d{5})$",
+    "languages": [
+      "fi-FI",
+      "sv-FI",
+      "smn"
+    ]
+  },
+  {
+    "iso": "FJ",
+    "iso3": "FJI",
+    "country": "Fiji",
+    "capital": "Suva",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-FJ",
+      "fj"
+    ]
+  },
+  {
+    "iso": "FK",
+    "iso3": "FLK",
+    "country": "Falkland Islands",
+    "capital": "Stanley",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-FK"
+    ]
+  },
+  {
+    "iso": "FM",
+    "iso3": "FSM",
+    "country": "Micronesia",
+    "capital": "Palikir",
+    "continent": "OC",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "en-FM",
+      "chk",
+      "pon",
+      "yap",
+      "kos",
+      "uli",
+      "woe",
+      "nkr",
+      "kpg"
+    ]
+  },
+  {
+    "iso": "FO",
+    "iso3": "FRO",
+    "country": "Faroe Islands",
+    "capital": "Torshavn",
+    "continent": "EU",
+    "postal_code_format": "FO-###",
+    "postal_code_regex": "^(?:FO)*(\\d{3})$",
+    "languages": [
+      "fo",
+      "da-FO"
+    ]
+  },
+  {
+    "iso": "FR",
+    "iso3": "FRA",
+    "country": "France",
+    "capital": "Paris",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-FR",
+      "frp",
+      "br",
+      "co",
+      "ca",
+      "eu",
+      "oc"
+    ]
+  },
+  {
+    "iso": "GA",
+    "iso3": "GAB",
+    "country": "Gabon",
+    "capital": "Libreville",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-GA"
+    ]
+  },
+  {
+    "iso": "GB",
+    "iso3": "GBR",
+    "country": "United Kingdom",
+    "capital": "London",
+    "continent": "EU",
+    "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+    "postal_code_regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
+    "languages": [
+      "en-GB",
+      "cy-GB",
+      "gd"
+    ]
+  },
+  {
+    "iso": "GD",
+    "iso3": "GRD",
+    "country": "Grenada",
+    "capital": "St. George's",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-GD"
+    ]
+  },
+  {
+    "iso": "GE",
+    "iso3": "GEO",
+    "country": "Georgia",
+    "capital": "Tbilisi",
+    "continent": "AS",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "ka",
+      "ru",
+      "hy",
+      "az"
+    ]
+  },
+  {
+    "iso": "GF",
+    "iso3": "GUF",
+    "country": "French Guiana",
+    "capital": "Cayenne",
+    "continent": "SA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^((97|98)3\\d{2})$",
+    "languages": [
+      "fr-GF"
+    ]
+  },
+  {
+    "iso": "GG",
+    "iso3": "GGY",
+    "country": "Guernsey",
+    "capital": "St Peter Port",
+    "continent": "EU",
+    "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+    "postal_code_regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
+    "languages": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "iso": "GH",
+    "iso3": "GHA",
+    "country": "Ghana",
+    "capital": "Accra",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-GH",
+      "ak",
+      "ee",
+      "tw"
+    ]
+  },
+  {
+    "iso": "GI",
+    "iso3": "GIB",
+    "country": "Gibraltar",
+    "capital": "Gibraltar",
+    "continent": "EU",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-GI",
+      "es",
+      "it",
+      "pt"
+    ]
+  },
+  {
+    "iso": "GL",
+    "iso3": "GRL",
+    "country": "Greenland",
+    "capital": "Nuuk",
+    "continent": "NA",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "kl",
+      "da-GL",
+      "en"
+    ]
+  },
+  {
+    "iso": "GM",
+    "iso3": "GMB",
+    "country": "Gambia",
+    "capital": "Banjul",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-GM",
+      "mnk",
+      "wof",
+      "wo",
+      "ff"
+    ]
+  },
+  {
+    "iso": "GN",
+    "iso3": "GIN",
+    "country": "Guinea",
+    "capital": "Conakry",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-GN"
+    ]
+  },
+  {
+    "iso": "GP",
+    "iso3": "GLP",
+    "country": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^((97|98)\\d{3})$",
+    "languages": [
+      "fr-GP"
+    ]
+  },
+  {
+    "iso": "GQ",
+    "iso3": "GNQ",
+    "country": "Equatorial Guinea",
+    "capital": "Malabo",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "es-GQ",
+      "fr"
+    ]
+  },
+  {
+    "iso": "GR",
+    "iso3": "GRC",
+    "country": "Greece",
+    "capital": "Athens",
+    "continent": "EU",
+    "postal_code_format": "### ##",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "el-GR",
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "iso": "GS",
+    "iso3": "SGS",
+    "country": "South Georgia and the South Sandwich Islands",
+    "capital": "Grytviken",
+    "continent": "AN",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "iso": "GT",
+    "iso3": "GTM",
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "es-GT"
+    ]
+  },
+  {
+    "iso": "GU",
+    "iso3": "GUM",
+    "country": "Guam",
+    "capital": "Hagatna",
+    "continent": "OC",
+    "postal_code_format": "969##",
+    "postal_code_regex": "^(969\\d{2})$",
+    "languages": [
+      "en-GU",
+      "ch-GU"
+    ]
+  },
+  {
+    "iso": "GW",
+    "iso3": "GNB",
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "pt-GW",
+      "pov"
+    ]
+  },
+  {
+    "iso": "GY",
+    "iso3": "GUY",
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-GY"
+    ]
+  },
+  {
+    "iso": "HK",
+    "iso3": "HKG",
+    "country": "Hong Kong",
+    "capital": "Hong Kong",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "zh-HK",
+      "yue",
+      "zh",
+      "en"
+    ]
+  },
+  {
+    "iso": "HM",
+    "iso3": "HMD",
+    "country": "Heard Island and McDonald Islands",
+    "capital": "",
+    "continent": "AN",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": []
+  },
+  {
+    "iso": "HN",
+    "iso3": "HND",
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "NA",
+    "postal_code_format": "@@####",
+    "postal_code_regex": "^([A-Z]{2}\\d{4})$",
+    "languages": [
+      "es-HN"
+    ]
+  },
+  {
+    "iso": "HR",
+    "iso3": "HRV",
+    "country": "Croatia",
+    "capital": "Zagreb",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(?:HR)*(\\d{5})$",
+    "languages": [
+      "hr-HR",
+      "sr"
+    ]
+  },
+  {
+    "iso": "HT",
+    "iso3": "HTI",
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "continent": "NA",
+    "postal_code_format": "HT####",
+    "postal_code_regex": "^(?:HT)*(\\d{4})$",
+    "languages": [
+      "ht",
+      "fr-HT"
+    ]
+  },
+  {
+    "iso": "HU",
+    "iso3": "HUN",
+    "country": "Hungary",
+    "capital": "Budapest",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "hu-HU"
+    ]
+  },
+  {
+    "iso": "ID",
+    "iso3": "IDN",
+    "country": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "id",
+      "en",
+      "nl",
+      "jv"
+    ]
+  },
+  {
+    "iso": "IE",
+    "iso3": "IRL",
+    "country": "Ireland",
+    "capital": "Dublin",
+    "continent": "EU",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-IE",
+      "ga-IE"
+    ]
+  },
+  {
+    "iso": "IL",
+    "iso3": "ISR",
+    "country": "Israel",
+    "capital": "Jerusalem",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "he",
+      "ar-IL",
+      "en-IL",
+      ""
+    ]
+  },
+  {
+    "iso": "IM",
+    "iso3": "IMN",
+    "country": "Isle of Man",
+    "capital": "Douglas, Isle of Man",
+    "continent": "EU",
+    "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+    "postal_code_regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
+    "languages": [
+      "en",
+      "gv"
+    ]
+  },
+  {
+    "iso": "IN",
+    "iso3": "IND",
+    "country": "India",
+    "capital": "New Delhi",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "en-IN",
+      "hi",
+      "bn",
+      "te",
+      "mr",
+      "ta",
+      "ur",
+      "gu",
+      "kn",
+      "ml",
+      "or",
+      "pa",
+      "as",
+      "bh",
+      "sat",
+      "ks",
+      "ne",
+      "sd",
+      "kok",
+      "doi",
+      "mni",
+      "sit",
+      "sa",
+      "fr",
+      "lus",
+      "inc"
+    ]
+  },
+  {
+    "iso": "IO",
+    "iso3": "IOT",
+    "country": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-IO"
+    ]
+  },
+  {
+    "iso": "IQ",
+    "iso3": "IRQ",
+    "country": "Iraq",
+    "capital": "Baghdad",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-IQ",
+      "ku",
+      "hy"
+    ]
+  },
+  {
+    "iso": "IR",
+    "iso3": "IRN",
+    "country": "Iran",
+    "capital": "Tehran",
+    "continent": "AS",
+    "postal_code_format": "##########",
+    "postal_code_regex": "^(\\d{10})$",
+    "languages": [
+      "fa-IR",
+      "ku"
+    ]
+  },
+  {
+    "iso": "IS",
+    "iso3": "ISL",
+    "country": "Iceland",
+    "capital": "Reykjavik",
+    "continent": "EU",
+    "postal_code_format": "###",
+    "postal_code_regex": "^(\\d{3})$",
+    "languages": [
+      "is",
+      "en",
+      "de",
+      "da",
+      "sv",
+      "no"
+    ]
+  },
+  {
+    "iso": "IT",
+    "iso3": "ITA",
+    "country": "Italy",
+    "capital": "Rome",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "it-IT",
+      "de-IT",
+      "fr-IT",
+      "sc",
+      "ca",
+      "co",
+      "sl"
+    ]
+  },
+  {
+    "iso": "JE",
+    "iso3": "JEY",
+    "country": "Jersey",
+    "capital": "Saint Helier",
+    "continent": "EU",
+    "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+    "postal_code_regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
+    "languages": [
+      "en",
+      "pt"
+    ]
+  },
+  {
+    "iso": "JM",
+    "iso3": "JAM",
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-JM"
+    ]
+  },
+  {
+    "iso": "JO",
+    "iso3": "JOR",
+    "country": "Jordan",
+    "capital": "Amman",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-JO",
+      "en"
+    ]
+  },
+  {
+    "iso": "JP",
+    "iso3": "JPN",
+    "country": "Japan",
+    "capital": "Tokyo",
+    "continent": "AS",
+    "postal_code_format": "###-####",
+    "postal_code_regex": "^(\\d{7})$",
+    "languages": [
+      "ja"
+    ]
+  },
+  {
+    "iso": "KE",
+    "iso3": "KEN",
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "en-KE",
+      "sw-KE"
+    ]
+  },
+  {
+    "iso": "KG",
+    "iso3": "KGZ",
+    "country": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "ky",
+      "uz",
+      "ru"
+    ]
+  },
+  {
+    "iso": "KH",
+    "iso3": "KHM",
+    "country": "Cambodia",
+    "capital": "Phnom Penh",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "km",
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "iso": "KI",
+    "iso3": "KIR",
+    "country": "Kiribati",
+    "capital": "Tarawa",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-KI",
+      "gil"
+    ]
+  },
+  {
+    "iso": "KM",
+    "iso3": "COM",
+    "country": "Comoros",
+    "capital": "Moroni",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar",
+      "fr-KM"
+    ]
+  },
+  {
+    "iso": "KN",
+    "iso3": "KNA",
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-KN"
+    ]
+  },
+  {
+    "iso": "KP",
+    "iso3": "PRK",
+    "country": "North Korea",
+    "capital": "Pyongyang",
+    "continent": "AS",
+    "postal_code_format": "###-###",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "ko-KP"
+    ]
+  },
+  {
+    "iso": "KR",
+    "iso3": "KOR",
+    "country": "South Korea",
+    "capital": "Seoul",
+    "continent": "AS",
+    "postal_code_format": "SEOUL ###-###",
+    "postal_code_regex": "^(?:SEOUL)*(\\d{6})$",
+    "languages": [
+      "ko-KR",
+      "en"
+    ]
+  },
+  {
+    "iso": "XK",
+    "iso3": "XKX",
+    "country": "Kosovo",
+    "capital": "Pristina",
+    "continent": "EU",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "sq",
+      "sr"
+    ]
+  },
+  {
+    "iso": "KW",
+    "iso3": "KWT",
+    "country": "Kuwait",
+    "capital": "Kuwait City",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-KW",
+      "en"
+    ]
+  },
+  {
+    "iso": "KY",
+    "iso3": "CYM",
+    "country": "Cayman Islands",
+    "capital": "George Town",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-KY"
+    ]
+  },
+  {
+    "iso": "KZ",
+    "iso3": "KAZ",
+    "country": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  {
+    "iso": "LA",
+    "iso3": "LAO",
+    "country": "Laos",
+    "capital": "Vientiane",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "lo",
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "iso": "LB",
+    "iso3": "LBN",
+    "country": "Lebanon",
+    "capital": "Beirut",
+    "continent": "AS",
+    "postal_code_format": "#### ####|####",
+    "postal_code_regex": "^(\\d{4}(\\d{4})?)$",
+    "languages": [
+      "ar-LB",
+      "fr-LB",
+      "en",
+      "hy"
+    ]
+  },
+  {
+    "iso": "LC",
+    "iso3": "LCA",
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-LC"
+    ]
+  },
+  {
+    "iso": "LI",
+    "iso3": "LIE",
+    "country": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "de-LI"
+    ]
+  },
+  {
+    "iso": "LK",
+    "iso3": "LKA",
+    "country": "Sri Lanka",
+    "capital": "Colombo",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "si",
+      "ta",
+      "en"
+    ]
+  },
+  {
+    "iso": "LR",
+    "iso3": "LBR",
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "en-LR"
+    ]
+  },
+  {
+    "iso": "LS",
+    "iso3": "LSO",
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "continent": "AF",
+    "postal_code_format": "###",
+    "postal_code_regex": "^(\\d{3})$",
+    "languages": [
+      "en-LS",
+      "st",
+      "zu",
+      "xh"
+    ]
+  },
+  {
+    "iso": "LT",
+    "iso3": "LTU",
+    "country": "Lithuania",
+    "capital": "Vilnius",
+    "continent": "EU",
+    "postal_code_format": "LT-#####",
+    "postal_code_regex": "^(?:LT)*(\\d{5})$",
+    "languages": [
+      "lt",
+      "ru",
+      "pl"
+    ]
+  },
+  {
+    "iso": "LU",
+    "iso3": "LUX",
+    "country": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "EU",
+    "postal_code_format": "L-####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "lb",
+      "de-LU",
+      "fr-LU"
+    ]
+  },
+  {
+    "iso": "LV",
+    "iso3": "LVA",
+    "country": "Latvia",
+    "capital": "Riga",
+    "continent": "EU",
+    "postal_code_format": "LV-####",
+    "postal_code_regex": "^(?:LV)*(\\d{4})$",
+    "languages": [
+      "lv",
+      "ru",
+      "lt"
+    ]
+  },
+  {
+    "iso": "LY",
+    "iso3": "LBY",
+    "country": "Libya",
+    "capital": "Tripolis",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-LY",
+      "it",
+      "en"
+    ]
+  },
+  {
+    "iso": "MA",
+    "iso3": "MAR",
+    "country": "Morocco",
+    "capital": "Rabat",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-MA",
+      "fr"
+    ]
+  },
+  {
+    "iso": "MC",
+    "iso3": "MCO",
+    "country": "Monaco",
+    "capital": "Monaco",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-MC",
+      "en",
+      "it"
+    ]
+  },
+  {
+    "iso": "MD",
+    "iso3": "MDA",
+    "country": "Moldova",
+    "capital": "Chisinau",
+    "continent": "EU",
+    "postal_code_format": "MD-####",
+    "postal_code_regex": "^(?:MD)*(\\d{4})$",
+    "languages": [
+      "ro",
+      "ru",
+      "gag",
+      "tr"
+    ]
+  },
+  {
+    "iso": "ME",
+    "iso3": "MNE",
+    "country": "Montenegro",
+    "capital": "Podgorica",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "sr",
+      "hu",
+      "bs",
+      "sq",
+      "hr",
+      "rom"
+    ]
+  },
+  {
+    "iso": "MF",
+    "iso3": "MAF",
+    "country": "Saint Martin",
+    "capital": "Marigot",
+    "continent": "NA",
+    "postal_code_format": "### ###",
+    "postal_code_regex": "",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "iso": "MG",
+    "iso3": "MDG",
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "AF",
+    "postal_code_format": "###",
+    "postal_code_regex": "^(\\d{3})$",
+    "languages": [
+      "fr-MG",
+      "mg"
+    ]
+  },
+  {
+    "iso": "MH",
+    "iso3": "MHL",
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "mh",
+      "en-MH"
+    ]
+  },
+  {
+    "iso": "MK",
+    "iso3": "MKD",
+    "country": "Macedonia",
+    "capital": "Skopje",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "mk",
+      "sq",
+      "tr",
+      "rmm",
+      "sr"
+    ]
+  },
+  {
+    "iso": "ML",
+    "iso3": "MLI",
+    "country": "Mali",
+    "capital": "Bamako",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-ML",
+      "bm"
+    ]
+  },
+  {
+    "iso": "MM",
+    "iso3": "MMR",
+    "country": "Myanmar",
+    "capital": "Nay Pyi Taw",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "my"
+    ]
+  },
+  {
+    "iso": "MN",
+    "iso3": "MNG",
+    "country": "Mongolia",
+    "capital": "Ulan Bator",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "mn",
+      "ru"
+    ]
+  },
+  {
+    "iso": "MO",
+    "iso3": "MAC",
+    "country": "Macao",
+    "capital": "Macao",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "zh",
+      "zh-MO",
+      "pt"
+    ]
+  },
+  {
+    "iso": "MP",
+    "iso3": "MNP",
+    "country": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fil",
+      "tl",
+      "zh",
+      "ch-MP",
+      "en-MP"
+    ]
+  },
+  {
+    "iso": "MQ",
+    "iso3": "MTQ",
+    "country": "Martinique",
+    "capital": "Fort-de-France",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-MQ"
+    ]
+  },
+  {
+    "iso": "MR",
+    "iso3": "MRT",
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-MR",
+      "fuc",
+      "snk",
+      "fr",
+      "mey",
+      "wo"
+    ]
+  },
+  {
+    "iso": "MS",
+    "iso3": "MSR",
+    "country": "Montserrat",
+    "capital": "Plymouth",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-MS"
+    ]
+  },
+  {
+    "iso": "MT",
+    "iso3": "MLT",
+    "country": "Malta",
+    "capital": "Valletta",
+    "continent": "EU",
+    "postal_code_format": "@@@ ###|@@@ ##",
+    "postal_code_regex": "^([A-Z]{3}\\d{2}\\d?)$",
+    "languages": [
+      "mt",
+      "en-MT"
+    ]
+  },
+  {
+    "iso": "MU",
+    "iso3": "MUS",
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-MU",
+      "bho",
+      "fr"
+    ]
+  },
+  {
+    "iso": "MV",
+    "iso3": "MDV",
+    "country": "Maldives",
+    "capital": "Male",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "dv",
+      "en"
+    ]
+  },
+  {
+    "iso": "MW",
+    "iso3": "MWI",
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ny",
+      "yao",
+      "tum",
+      "swk"
+    ]
+  },
+  {
+    "iso": "MX",
+    "iso3": "MEX",
+    "country": "Mexico",
+    "capital": "Mexico City",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "es-MX"
+    ]
+  },
+  {
+    "iso": "MY",
+    "iso3": "MYS",
+    "country": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ms-MY",
+      "en",
+      "zh",
+      "ta",
+      "te",
+      "ml",
+      "pa",
+      "th"
+    ]
+  },
+  {
+    "iso": "MZ",
+    "iso3": "MOZ",
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "pt-MZ",
+      "vmw"
+    ]
+  },
+  {
+    "iso": "NA",
+    "iso3": "NAM",
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-NA",
+      "af",
+      "de",
+      "hz",
+      "naq"
+    ]
+  },
+  {
+    "iso": "NC",
+    "iso3": "NCL",
+    "country": "New Caledonia",
+    "capital": "Noumea",
+    "continent": "OC",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-NC"
+    ]
+  },
+  {
+    "iso": "NE",
+    "iso3": "NER",
+    "country": "Niger",
+    "capital": "Niamey",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "fr-NE",
+      "ha",
+      "kr",
+      "dje"
+    ]
+  },
+  {
+    "iso": "NF",
+    "iso3": "NFK",
+    "country": "Norfolk Island",
+    "capital": "Kingston",
+    "continent": "OC",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "en-NF"
+    ]
+  },
+  {
+    "iso": "NG",
+    "iso3": "NGA",
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "continent": "AF",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "en-NG",
+      "ha",
+      "yo",
+      "ig",
+      "ff"
+    ]
+  },
+  {
+    "iso": "NI",
+    "iso3": "NIC",
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "continent": "NA",
+    "postal_code_format": "###-###-#",
+    "postal_code_regex": "^(\\d{7})$",
+    "languages": [
+      "es-NI",
+      "en"
+    ]
+  },
+  {
+    "iso": "NL",
+    "iso3": "NLD",
+    "country": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "EU",
+    "postal_code_format": "#### @@",
+    "postal_code_regex": "^(\\d{4}[A-Z]{2})$",
+    "languages": [
+      "nl-NL",
+      "fy-NL"
+    ]
+  },
+  {
+    "iso": "NO",
+    "iso3": "NOR",
+    "country": "Norway",
+    "capital": "Oslo",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "no",
+      "nb",
+      "nn",
+      "se",
+      "fi"
+    ]
+  },
+  {
+    "iso": "NP",
+    "iso3": "NPL",
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ne",
+      "en"
+    ]
+  },
+  {
+    "iso": "NR",
+    "iso3": "NRU",
+    "country": "Nauru",
+    "capital": "Yaren",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "na",
+      "en-NR"
+    ]
+  },
+  {
+    "iso": "NU",
+    "iso3": "NIU",
+    "country": "Niue",
+    "capital": "Alofi",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "niu",
+      "en-NU"
+    ]
+  },
+  {
+    "iso": "NZ",
+    "iso3": "NZL",
+    "country": "New Zealand",
+    "capital": "Wellington",
+    "continent": "OC",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "en-NZ",
+      "mi"
+    ]
+  },
+  {
+    "iso": "OM",
+    "iso3": "OMN",
+    "country": "Oman",
+    "capital": "Muscat",
+    "continent": "AS",
+    "postal_code_format": "###",
+    "postal_code_regex": "^(\\d{3})$",
+    "languages": [
+      "ar-OM",
+      "en",
+      "bal",
+      "ur"
+    ]
+  },
+  {
+    "iso": "PA",
+    "iso3": "PAN",
+    "country": "Panama",
+    "capital": "Panama City",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "es-PA",
+      "en"
+    ]
+  },
+  {
+    "iso": "PE",
+    "iso3": "PER",
+    "country": "Peru",
+    "capital": "Lima",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "es-PE",
+      "qu",
+      "ay"
+    ]
+  },
+  {
+    "iso": "PF",
+    "iso3": "PYF",
+    "country": "French Polynesia",
+    "capital": "Papeete",
+    "continent": "OC",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^((97|98)7\\d{2})$",
+    "languages": [
+      "fr-PF",
+      "ty"
+    ]
+  },
+  {
+    "iso": "PG",
+    "iso3": "PNG",
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "OC",
+    "postal_code_format": "###",
+    "postal_code_regex": "^(\\d{3})$",
+    "languages": [
+      "en-PG",
+      "ho",
+      "meu",
+      "tpi"
+    ]
+  },
+  {
+    "iso": "PH",
+    "iso3": "PHL",
+    "country": "Philippines",
+    "capital": "Manila",
+    "continent": "AS",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "tl",
+      "en-PH",
+      "fil"
+    ]
+  },
+  {
+    "iso": "PK",
+    "iso3": "PAK",
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ur-PK",
+      "en-PK",
+      "pa",
+      "sd",
+      "ps",
+      "brh"
+    ]
+  },
+  {
+    "iso": "PL",
+    "iso3": "POL",
+    "country": "Poland",
+    "capital": "Warsaw",
+    "continent": "EU",
+    "postal_code_format": "##-###",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "pl"
+    ]
+  },
+  {
+    "iso": "PM",
+    "iso3": "SPM",
+    "country": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "continent": "NA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(97500)$",
+    "languages": [
+      "fr-PM"
+    ]
+  },
+  {
+    "iso": "PN",
+    "iso3": "PCN",
+    "country": "Pitcairn",
+    "capital": "Adamstown",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-PN"
+    ]
+  },
+  {
+    "iso": "PR",
+    "iso3": "PRI",
+    "country": "Puerto Rico",
+    "capital": "San Juan",
+    "continent": "NA",
+    "postal_code_format": "#####-####",
+    "postal_code_regex": "^(\\d{9})$",
+    "languages": [
+      "en-PR",
+      "es-PR"
+    ]
+  },
+  {
+    "iso": "PS",
+    "iso3": "PSE",
+    "country": "Palestinian Territory",
+    "capital": "East Jerusalem",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-PS"
+    ]
+  },
+  {
+    "iso": "PT",
+    "iso3": "PRT",
+    "country": "Portugal",
+    "capital": "Lisbon",
+    "continent": "EU",
+    "postal_code_format": "####-###",
+    "postal_code_regex": "^(\\d{7})$",
+    "languages": [
+      "pt-PT",
+      "mwl"
+    ]
+  },
+  {
+    "iso": "PW",
+    "iso3": "PLW",
+    "country": "Palau",
+    "capital": "Melekeok",
+    "continent": "OC",
+    "postal_code_format": "96940",
+    "postal_code_regex": "^(96940)$",
+    "languages": [
+      "pau",
+      "sov",
+      "en-PW",
+      "tox",
+      "ja",
+      "fil",
+      "zh"
+    ]
+  },
+  {
+    "iso": "PY",
+    "iso3": "PRY",
+    "country": "Paraguay",
+    "capital": "Asuncion",
+    "continent": "SA",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "es-PY",
+      "gn"
+    ]
+  },
+  {
+    "iso": "QA",
+    "iso3": "QAT",
+    "country": "Qatar",
+    "capital": "Doha",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-QA",
+      "es"
+    ]
+  },
+  {
+    "iso": "RE",
+    "iso3": "REU",
+    "country": "Reunion",
+    "capital": "Saint-Denis",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^((97|98)(4|7|8)\\d{2})$",
+    "languages": [
+      "fr-RE"
+    ]
+  },
+  {
+    "iso": "RO",
+    "iso3": "ROU",
+    "country": "Romania",
+    "capital": "Bucharest",
+    "continent": "EU",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "ro",
+      "hu",
+      "rom"
+    ]
+  },
+  {
+    "iso": "RS",
+    "iso3": "SRB",
+    "country": "Serbia",
+    "capital": "Belgrade",
+    "continent": "EU",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "sr",
+      "hu",
+      "bs",
+      "rom"
+    ]
+  },
+  {
+    "iso": "RU",
+    "iso3": "RUS",
+    "country": "Russia",
+    "capital": "Moscow",
+    "continent": "EU",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "ru",
+      "tt",
+      "xal",
+      "cau",
+      "ady",
+      "kv",
+      "ce",
+      "tyv",
+      "cv",
+      "udm",
+      "tut",
+      "mns",
+      "bua",
+      "myv",
+      "mdf",
+      "chm",
+      "ba",
+      "inh",
+      "tut",
+      "kbd",
+      "krc",
+      "ava",
+      "sah",
+      "nog"
+    ]
+  },
+  {
+    "iso": "RW",
+    "iso3": "RWA",
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "rw",
+      "en-RW",
+      "fr-RW",
+      "sw"
+    ]
+  },
+  {
+    "iso": "SA",
+    "iso3": "SAU",
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-SA"
+    ]
+  },
+  {
+    "iso": "SB",
+    "iso3": "SLB",
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-SB",
+      "tpi"
+    ]
+  },
+  {
+    "iso": "SC",
+    "iso3": "SYC",
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-SC",
+      "fr-SC"
+    ]
+  },
+  {
+    "iso": "SD",
+    "iso3": "SDN",
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "ar-SD",
+      "en",
+      "fia"
+    ]
+  },
+  {
+    "iso": "SS",
+    "iso3": "SSD",
+    "country": "South Sudan",
+    "capital": "Juba",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "iso": "SE",
+    "iso3": "SWE",
+    "country": "Sweden",
+    "capital": "Stockholm",
+    "continent": "EU",
+    "postal_code_format": "### ##",
+    "postal_code_regex": "^(?:SE)*(\\d{5})$",
+    "languages": [
+      "sv-SE",
+      "se",
+      "sma",
+      "fi-SE"
+    ]
+  },
+  {
+    "iso": "SG",
+    "iso3": "SGP",
+    "country": "Singapore",
+    "capital": "Singapur",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "cmn",
+      "en-SG",
+      "ms-SG",
+      "ta-SG",
+      "zh-SG"
+    ]
+  },
+  {
+    "iso": "SH",
+    "iso3": "SHN",
+    "country": "Saint Helena",
+    "capital": "Jamestown",
+    "continent": "AF",
+    "postal_code_format": "STHL 1ZZ",
+    "postal_code_regex": "^(STHL1ZZ)$",
+    "languages": [
+      "en-SH"
+    ]
+  },
+  {
+    "iso": "SI",
+    "iso3": "SVN",
+    "country": "Slovenia",
+    "capital": "Ljubljana",
+    "continent": "EU",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(?:SI)*(\\d{4})$",
+    "languages": [
+      "sl",
+      "sh"
+    ]
+  },
+  {
+    "iso": "SJ",
+    "iso3": "SJM",
+    "country": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "continent": "EU",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "no",
+      "ru"
+    ]
+  },
+  {
+    "iso": "SK",
+    "iso3": "SVK",
+    "country": "Slovakia",
+    "capital": "Bratislava",
+    "continent": "EU",
+    "postal_code_format": "### ##",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "sk",
+      "hu"
+    ]
+  },
+  {
+    "iso": "SL",
+    "iso3": "SLE",
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-SL",
+      "men",
+      "tem"
+    ]
+  },
+  {
+    "iso": "SM",
+    "iso3": "SMR",
+    "country": "San Marino",
+    "capital": "San Marino",
+    "continent": "EU",
+    "postal_code_format": "4789#",
+    "postal_code_regex": "^(4789\\d)$",
+    "languages": [
+      "it-SM"
+    ]
+  },
+  {
+    "iso": "SN",
+    "iso3": "SEN",
+    "country": "Senegal",
+    "capital": "Dakar",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-SN",
+      "wo",
+      "fuc",
+      "mnk"
+    ]
+  },
+  {
+    "iso": "SO",
+    "iso3": "SOM",
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "continent": "AF",
+    "postal_code_format": "@@  #####",
+    "postal_code_regex": "^([A-Z]{2}\\d{5})$",
+    "languages": [
+      "so-SO",
+      "ar-SO",
+      "it",
+      "en-SO"
+    ]
+  },
+  {
+    "iso": "SR",
+    "iso3": "SUR",
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "SA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl-SR",
+      "en",
+      "srn",
+      "hns",
+      "jv"
+    ]
+  },
+  {
+    "iso": "ST",
+    "iso3": "STP",
+    "country": "Sao Tome and Principe",
+    "capital": "Sao Tome",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "pt-ST"
+    ]
+  },
+  {
+    "iso": "SV",
+    "iso3": "SLV",
+    "country": "El Salvador",
+    "capital": "San Salvador",
+    "continent": "NA",
+    "postal_code_format": "CP ####",
+    "postal_code_regex": "^(?:CP)*(\\d{4})$",
+    "languages": [
+      "es-SV"
+    ]
+  },
+  {
+    "iso": "SX",
+    "iso3": "SXM",
+    "country": "Sint Maarten",
+    "capital": "Philipsburg",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl",
+      "en"
+    ]
+  },
+  {
+    "iso": "SY",
+    "iso3": "SYR",
+    "country": "Syria",
+    "capital": "Damascus",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-SY",
+      "ku",
+      "hy",
+      "arc",
+      "fr",
+      "en"
+    ]
+  },
+  {
+    "iso": "SZ",
+    "iso3": "SWZ",
+    "country": "Swaziland",
+    "capital": "Mbabane",
+    "continent": "AF",
+    "postal_code_format": "@###",
+    "postal_code_regex": "^([A-Z]\\d{3})$",
+    "languages": [
+      "en-SZ",
+      "ss-SZ"
+    ]
+  },
+  {
+    "iso": "TC",
+    "iso3": "TCA",
+    "country": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "continent": "NA",
+    "postal_code_format": "TKCA 1ZZ",
+    "postal_code_regex": "^(TKCA 1ZZ)$",
+    "languages": [
+      "en-TC"
+    ]
+  },
+  {
+    "iso": "TD",
+    "iso3": "TCD",
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-TD",
+      "ar-TD",
+      "sre"
+    ]
+  },
+  {
+    "iso": "TF",
+    "iso3": "ATF",
+    "country": "French Southern Territories",
+    "capital": "Port-aux-Francais",
+    "continent": "AN",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "iso": "TG",
+    "iso3": "TGO",
+    "country": "Togo",
+    "capital": "Lome",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "fr-TG",
+      "ee",
+      "hna",
+      "kbp",
+      "dag",
+      "ha"
+    ]
+  },
+  {
+    "iso": "TH",
+    "iso3": "THA",
+    "country": "Thailand",
+    "capital": "Bangkok",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "th",
+      "en"
+    ]
+  },
+  {
+    "iso": "TJ",
+    "iso3": "TJK",
+    "country": "Tajikistan",
+    "capital": "Dushanbe",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "tg",
+      "ru"
+    ]
+  },
+  {
+    "iso": "TK",
+    "iso3": "TKL",
+    "country": "Tokelau",
+    "capital": "",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "tkl",
+      "en-TK"
+    ]
+  },
+  {
+    "iso": "TL",
+    "iso3": "TLS",
+    "country": "East Timor",
+    "capital": "Dili",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "tet",
+      "pt-TL",
+      "id",
+      "en"
+    ]
+  },
+  {
+    "iso": "TM",
+    "iso3": "TKM",
+    "country": "Turkmenistan",
+    "capital": "Ashgabat",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "tk",
+      "ru",
+      "uz"
+    ]
+  },
+  {
+    "iso": "TN",
+    "iso3": "TUN",
+    "country": "Tunisia",
+    "capital": "Tunis",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "ar-TN",
+      "fr"
+    ]
+  },
+  {
+    "iso": "TO",
+    "iso3": "TON",
+    "country": "Tonga",
+    "capital": "Nuku'alofa",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "to",
+      "en-TO"
+    ]
+  },
+  {
+    "iso": "TR",
+    "iso3": "TUR",
+    "country": "Turkey",
+    "capital": "Ankara",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "tr-TR",
+      "ku",
+      "diq",
+      "az",
+      "av"
+    ]
+  },
+  {
+    "iso": "TT",
+    "iso3": "TTO",
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-TT",
+      "hns",
+      "fr",
+      "es",
+      "zh"
+    ]
+  },
+  {
+    "iso": "TV",
+    "iso3": "TUV",
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "tvl",
+      "en",
+      "sm",
+      "gil"
+    ]
+  },
+  {
+    "iso": "TW",
+    "iso3": "TWN",
+    "country": "Taiwan",
+    "capital": "Taipei",
+    "continent": "AS",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "zh-TW",
+      "zh",
+      "nan",
+      "hak"
+    ]
+  },
+  {
+    "iso": "TZ",
+    "iso3": "TZA",
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "sw-TZ",
+      "en",
+      "ar"
+    ]
+  },
+  {
+    "iso": "UA",
+    "iso3": "UKR",
+    "country": "Ukraine",
+    "capital": "Kiev",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "uk",
+      "ru-UA",
+      "rom",
+      "pl",
+      "hu"
+    ]
+  },
+  {
+    "iso": "UG",
+    "iso3": "UGA",
+    "country": "Uganda",
+    "capital": "Kampala",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-UG",
+      "lg",
+      "sw",
+      "ar"
+    ]
+  },
+  {
+    "iso": "UM",
+    "iso3": "UMI",
+    "country": "United States Minor Outlying Islands",
+    "capital": "",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-UM"
+    ]
+  },
+  {
+    "iso": "US",
+    "iso3": "USA",
+    "country": "United States",
+    "capital": "Washington",
+    "continent": "NA",
+    "postal_code_format": "#####-####",
+    "postal_code_regex": "^\\d{5}(-\\d{4})?$",
+    "languages": [
+      "en-US",
+      "es-US",
+      "haw",
+      "fr"
+    ]
+  },
+  {
+    "iso": "UY",
+    "iso3": "URY",
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "continent": "SA",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "es-UY"
+    ]
+  },
+  {
+    "iso": "UZ",
+    "iso3": "UZB",
+    "country": "Uzbekistan",
+    "capital": "Tashkent",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "uz",
+      "ru",
+      "tg"
+    ]
+  },
+  {
+    "iso": "VA",
+    "iso3": "VAT",
+    "country": "Vatican",
+    "capital": "Vatican City",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "la",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "iso": "VC",
+    "iso3": "VCT",
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-VC",
+      "fr"
+    ]
+  },
+  {
+    "iso": "VE",
+    "iso3": "VEN",
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "continent": "SA",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "es-VE"
+    ]
+  },
+  {
+    "iso": "VG",
+    "iso3": "VGB",
+    "country": "British Virgin Islands",
+    "capital": "Road Town",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-VG"
+    ]
+  },
+  {
+    "iso": "VI",
+    "iso3": "VIR",
+    "country": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "continent": "NA",
+    "postal_code_format": "#####-####",
+    "postal_code_regex": "^\\d{5}(-\\d{4})?$",
+    "languages": [
+      "en-VI"
+    ]
+  },
+  {
+    "iso": "VN",
+    "iso3": "VNM",
+    "country": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "AS",
+    "postal_code_format": "######",
+    "postal_code_regex": "^(\\d{6})$",
+    "languages": [
+      "vi",
+      "en",
+      "fr",
+      "zh",
+      "km"
+    ]
+  },
+  {
+    "iso": "VU",
+    "iso3": "VUT",
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "bi",
+      "en-VU",
+      "fr-VU"
+    ]
+  },
+  {
+    "iso": "WF",
+    "iso3": "WLF",
+    "country": "Wallis and Futuna",
+    "capital": "Mata Utu",
+    "continent": "OC",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(986\\d{2})$",
+    "languages": [
+      "wls",
+      "fud",
+      "fr-WF"
+    ]
+  },
+  {
+    "iso": "WS",
+    "iso3": "WSM",
+    "country": "Samoa",
+    "capital": "Apia",
+    "continent": "OC",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "sm",
+      "en-WS"
+    ]
+  },
+  {
+    "iso": "YE",
+    "iso3": "YEM",
+    "country": "Yemen",
+    "capital": "Sanaa",
+    "continent": "AS",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "ar-YE"
+    ]
+  },
+  {
+    "iso": "YT",
+    "iso3": "MYT",
+    "country": "Mayotte",
+    "capital": "Mamoudzou",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "fr-YT"
+    ]
+  },
+  {
+    "iso": "ZA",
+    "iso3": "ZAF",
+    "country": "South Africa",
+    "capital": "Pretoria",
+    "continent": "AF",
+    "postal_code_format": "####",
+    "postal_code_regex": "^(\\d{4})$",
+    "languages": [
+      "zu",
+      "xh",
+      "af",
+      "nso",
+      "en-ZA",
+      "tn",
+      "st",
+      "ts",
+      "ss",
+      "ve",
+      "nr"
+    ]
+  },
+  {
+    "iso": "ZM",
+    "iso3": "ZMB",
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "continent": "AF",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "en-ZM",
+      "bem",
+      "loz",
+      "lun",
+      "lue",
+      "ny",
+      "toi"
+    ]
+  },
+  {
+    "iso": "ZW",
+    "iso3": "ZWE",
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "AF",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "en-ZW",
+      "sn",
+      "nr",
+      "nd"
+    ]
+  },
+  {
+    "iso": "CS",
+    "iso3": "SCG",
+    "country": "Serbia and Montenegro",
+    "capital": "Belgrade",
+    "continent": "EU",
+    "postal_code_format": "#####",
+    "postal_code_regex": "^(\\d{5})$",
+    "languages": [
+      "cu",
+      "hu",
+      "sq",
+      "sr"
+    ]
+  },
+  {
+    "iso": "AN",
+    "iso3": "ANT",
+    "country": "Netherlands Antilles",
+    "capital": "Willemstad",
+    "continent": "NA",
+    "postal_code_format": "",
+    "postal_code_regex": "",
+    "languages": [
+      "nl-AN",
+      "en",
+      "es"
+    ]
+  }
+]
