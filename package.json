@@ -1,5 +1,5 @@
 {
-  "name": "languages",
+  "name": "model-un",
   "version": "0.0.1",
   "description": "IETF language tags and country db with official languages",
   "main": "index.js",
