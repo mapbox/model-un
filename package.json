@@ -1,7 +1,7 @@
 {
   "name": "languages",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "IETF language tags and country db with official languages",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
@@ -12,6 +12,10 @@
   "devDependencies": {
     "tape": "^2.13.4"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapbox/model-un.git"
+  },
+  "author": "Mapbox",
   "license": "ISC"
 }
