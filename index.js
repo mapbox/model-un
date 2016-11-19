@@ -2,6 +2,7 @@ var languages = require('./data/languages');
 var language_ref = require('./data/languageref');
 var countries = require('./data/countries');
 var country_ref = require('./data/countryref');
+var fallback = require('./data/fallback');
 
 module.exports = {};
 
@@ -100,6 +101,10 @@ module.exports.getOfficialLanguages = function(cc, options) {
     }
     if (val && val.length) return val;
     return false;
+}
+
+module.exports.fallback(str) {
+    return fallback[str] || fallback[str.split('-')[0]] || null;
 }
 
 function camelcase(str) {
