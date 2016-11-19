@@ -72,7 +72,7 @@ module.exports.getAllCountriesLike = function(str) {
 // A 2 digit country code will return an array of language codes
 // or false if invalid cc or no value for that cc
 module.exports.getOfficialLanguages = function(cc, options) {
-    if (!options) options = {};    
+    if (!options) options = {};
 
     var val = country_ref[cc.toLowerCase()];
     val = val ? countries[val] : null;
