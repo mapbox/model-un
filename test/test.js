@@ -10,10 +10,12 @@ tape('Load data', function(assert) {
     language_ref = require('../data/languageref');
     var countries = require('../data/countries');
     country_ref = require('../data/countryref');
+    var fallback = require('../data/fallback');
     assert.ok(languages);
     assert.ok(language_ref);
     assert.ok(countries);
     assert.ok(country_ref);
+    assert.ok(fallback);
 
     ru = languages[140];
     Russia = countries[191];
@@ -159,7 +161,7 @@ tape('getLanguage -- by code', function(assert) {
     assert.equal(enUS[1].type, 'region', 'en_US');
     assert.equal(enUS[1].description, 'United States', 'en_US');
     assert.equal(enUS[1].subtag, 'US', 'en_US');
-    
+
 
     var boont = mun.getLanguage('en-boont');
     assert.equal(boont.type, 'redundant', 'en-boont');
@@ -194,7 +196,7 @@ tape('getLanguage -- by name', function(assert) {
     assert.equal(us.subtag, 'US', 'United States');
 
     assert.notOk(mun.getLanguage('united states'), 'united states')
-    
+
     assert.end();
 });
 
@@ -218,7 +220,7 @@ tape('getCountry', function(assert) {
     assert.equal(gb.continent, 'EU', 'GB');
     assert.equal(gb.iso, 'GB', 'GB');
     assert.equal(gb['iso3'], 'GBR', 'GB');
-    
+
     assert.end();
 });
 
@@ -245,5 +247,13 @@ tape('getOfficialLanguages', function(assert) {
     assert.equal(l[0][1].subtag, 'AO');
     assert.equal(l[0][1].description, 'Angola');
 
+    assert.end();
+});
+
+tape('fallback', function(assert) {
+    assert.deepEqual(mun.fallback('uk'), ['ru'], 'ukrainian');
+    assert.deepEqual(mun.fallback('tl'), [ "vi", "en", "nl", "pt", "ca", "it", "fr", "es", "de", "pl" ], 'tagalog');
+    assert.deepEqual(mun.fallback('zh-Hant'), [ "zh-Hans" ], 'subtag');
+    assert.deepEqual(mun.fallback('tg-whatever'), [ "ru" ], 'subtag missing');
     assert.end();
 });

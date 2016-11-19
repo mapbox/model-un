@@ -103,7 +103,7 @@ module.exports.getOfficialLanguages = function(cc, options) {
     return false;
 }
 
-module.exports.fallback(str) {
+module.exports.fallback = function(str) {
     return fallback[str] || fallback[str.split('-')[0]] || null;
 }
 
