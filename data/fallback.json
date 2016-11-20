@@ -3,283 +3,127 @@
   "az": [
     "ru"
   ],
-  "bg": null,
+  "bg": [
+    "mk",
+    "sr",
+    "ru",
+    "en"
+  ],
   "bn": [
     "en"
   ],
   "bs": [
     "hr",
-    "sr"
+    "sr",
+    "ru"
   ],
   "ca": [
-    "nl",
-    "en",
-    "pt",
-    "fr",
-    "it",
-    "ms",
-    "tl",
     "es",
-    "vi",
-    "pl",
-    "de",
-    "hr",
-    "sv",
-    "cs",
-    "hu",
-    "nb",
-    "ro",
-    "sk",
-    "id",
-    "da",
-    "fi",
-    "tr"
+    "pt",
+    "en"
   ],
   "cs": [
     "sk",
-    "ms",
-    "nl",
-    "vi",
     "it",
     "pt",
-    "en",
-    "fr",
-    "sv",
-    "pl",
-    "hu",
-    "de",
-    "ro",
-    "ca",
-    "es",
-    "id",
-    "nb",
-    "fi"
+    "en"
   ],
   "da": [
     "no",
     "nb",
     "sv",
     "nl",
-    "vi",
-    "en",
-    "de",
-    "ro",
-    "pt",
-    "hu",
-    "it",
-    "fr",
-    "pl",
-    "es",
-    "ca"
+    "en"
   ],
   "de": [
-    "ms",
     "sk",
-    "vi",
     "ro",
     "nl",
-    "hu",
-    "sv",
-    "pl",
-    "pt",
-    "en",
-    "fr",
-    "es",
-    "id",
-    "it",
-    "nb",
-    "da",
-    "ca",
-    "cs",
-    "tl",
-    "hr",
-    "fi",
-    "tr"
+    "en"
   ],
-  "el": null,
-  "en": [
-    "ms",
-    "sk",
-    "vi",
-    "nl",
-    "ro",
-    "fr",
-    "pl",
-    "hu",
-    "sv",
+  "el": [
+    "en",
     "de",
-    "id",
-    "pt",
-    "it",
+    "fr",
+    "it"
+  ],
+  "en": [
     "es",
-    "tl",
-    "cs",
-    "ca",
-    "da",
-    "nb",
-    "hr",
-    "fi",
-    "tr"
+    "fr",
+    "de"
   ],
   "es": [
-    "ms",
-    "sk",
-    "vi",
-    "hu",
-    "ro",
     "pt",
     "fr",
     "nl",
-    "pl",
-    "sv",
-    "de",
-    "it",
-    "en",
-    "id",
-    "ca",
-    "hr",
-    "tl",
-    "nb",
-    "da",
-    "cs",
-    "fi",
-    "tr"
+    "en"
   ],
   "et": [
-    "fi"
+    "fi",
+    "ru",
+    "de"
   ],
-  "fa": null,
+  "fa": [
+    "az"
+  ],
   "fi": [
     "sv",
     "nb",
-    "vi",
     "nl",
-    "pt",
-    "ro",
-    "id",
-    "hu",
-    "de",
-    "cs",
-    "es",
-    "ca",
-    "en",
-    "it",
-    "fr",
-    "pl"
+    "en"
   ],
   "fr": [
-    "ms",
-    "vi",
     "nl",
     "ro",
     "it",
     "sk",
     "pt",
-    "en",
-    "pl",
-    "sv",
-    "es",
-    "hu",
-    "de",
-    "id",
-    "ca",
-    "cs",
-    "nb",
-    "tl",
-    "da",
-    "hr",
-    "tr",
-    "fi"
+    "en"
   ],
   "gu": [
-    "hi"
+    "hi",
+    "kn",
+    "en"
   ],
-  "he": null,
-  "hi": null,
+  "he": [
+    "en"
+  ],
+  "hi": [
+    "gu",
+    "kn",
+    "en"
+  ],
   "hr": [
     "bs",
     "sr",
-    "pt",
-    "nl",
-    "es",
-    "ca",
-    "en",
-    "de",
-    "fr",
     "it",
-    "pl"
+    "es",
+    "en",
   ],
   "hu": [
-    "vi",
-    "sv",
     "ro",
-    "pt",
-    "ms",
-    "es",
-    "pl",
     "en",
-    "nl",
-    "sk",
-    "fr",
-    "de",
-    "it",
-    "id",
-    "da",
-    "nb",
-    "cs",
-    "ca",
-    "fi"
+    "de"
   ],
   "id": [
     "ms",
     "vi",
     "sk",
     "ro",
-    "en",
-    "sv",
-    "nl",
-    "de",
-    "hu",
-    "pt",
-    "it",
-    "fr",
-    "pl",
-    "es",
-    "nb",
-    "fi",
-    "cs",
-    "ca"
+    "en"
   ],
   "is": [
     "en"
   ],
   "it": [
-    "ms",
-    "vi",
     "ro",
-    "fr",
-    "nl",
-    "sk",
-    "sv",
-    "pl",
-    "pt",
-    "hu",
-    "en",
-    "de",
-    "es",
-    "id",
-    "cs",
-    "ca",
-    "tl",
-    "nb",
-    "da",
-    "hr",
-    "fi",
-    "tr"
+    "fr"
+    "en"
   ],
   "ja": null,
   "ka": [
-    "en"
+    "en",
+    "ru"
   ],
   "kk": [
     "ru"
@@ -288,7 +132,16 @@
     "en"
   ],
   "ko": null,
-  "lt": null,
+  "lt": [
+    "lv",
+    "ru",
+    "pl"
+  ],
+  "lv": [
+    "lv",
+    "ru",
+    "en"
+  ],
   "mk": [
     "bg"
   ],
@@ -298,140 +151,35 @@
   "ms": [
     "id",
     "vi",
-    "en",
-    "nl",
-    "sk",
-    "fr",
-    "ro",
-    "pt",
-    "it",
-    "pl",
-    "sv",
-    "es",
-    "de",
-    "hu",
-    "cs",
-    "nb",
-    "ca"
+    "en"
   ],
   "nb": [
     "no",
     "da",
     "sv",
-    "vi",
-    "nl",
-    "pt",
-    "ms",
-    "sk",
-    "ro",
-    "de",
-    "en",
-    "fr",
-    "it",
-    "hu",
-    "pl",
-    "id",
-    "fi",
-    "es",
-    "ca",
-    "cs"
+    "nl"
   ],
   "nl": [
-    "ms",
-    "vi",
     "fr",
-    "en",
-    "ro",
-    "pt",
-    "sk",
-    "it",
-    "sv",
-    "pl",
-    "de",
-    "hu",
-    "es",
-    "id",
-    "nb",
-    "da",
-    "cs",
-    "ca",
-    "tl",
-    "hr",
-    "fi",
-    "tr"
+    "en"
   ],
   "no": [
     "nb",
     "da"
   ],
   "pl": [
-    "ms",
-    "vi",
     "sk",
     "nl",
     "ro",
     "en",
-    "hu",
-    "pt",
-    "fr",
-    "es",
-    "it",
-    "de",
-    "sv",
-    "id",
-    "ca",
-    "cs",
-    "nb",
-    "da",
-    "tl",
-    "hr",
-    "tr",
-    "fi"
+    "hu"
   ],
   "pt": [
-    "ms",
-    "vi",
-    "nl",
-    "hu",
-    "fr",
-    "sv",
-    "ro",
-    "sk",
     "es",
-    "pl",
-    "de",
-    "it",
-    "en",
-    "id",
-    "nb",
-    "cs",
-    "ca",
-    "tl",
-    "da",
-    "hr",
-    "fi",
-    "tr"
+    "it"
   ],
   "ro": [
-    "ms",
-    "vi",
-    "sk",
-    "nl",
-    "it",
-    "fr",
-    "hu",
-    "de",
-    "en",
-    "sv",
-    "es",
-    "pl",
-    "pt",
-    "id",
-    "nb",
-    "da",
-    "cs",
-    "fi",
-    "ca"
+    "en"
   ],
   "ru": [
     "kk"
@@ -441,22 +189,7 @@
   ],
   "sk": [
     "cs",
-    "ms",
-    "vi",
-    "en",
-    "ro",
-    "pl",
-    "sv",
-    "de",
-    "es",
-    "nl",
-    "it",
-    "fr",
-    "id",
-    "pt",
-    "hu",
-    "nb",
-    "ca"
+    "en"
   ],
   "sq": [
     "en"
@@ -472,26 +205,7 @@
     "sr-Cyrl"
   ],
   "sv": [
-    "ms",
-    "vi",
-    "sk",
-    "hu",
-    "nl",
-    "ro",
-    "pt",
-    "fr",
-    "it",
-    "de",
-    "en",
-    "pl",
-    "id",
-    "es",
-    "nb",
-    "da",
-    "cs",
-    "ca",
-    "fi",
-    "tr"
+    "en"
   ],
   "ta": [
     "en"
@@ -505,28 +219,13 @@
   "th": null,
   "tl": [
     "vi",
-    "en",
-    "nl",
-    "pt",
-    "ca",
-    "it",
-    "fr",
-    "es",
-    "de",
-    "pl"
+    "en"
   ],
   "tr": [
-    "vi",
-    "nl",
     "pt",
     "de",
     "fr",
-    "pl",
-    "ca",
-    "sv",
-    "en",
-    "it",
-    "es"
+    "en"
   ],
   "uk": [
     "ru"
@@ -539,26 +238,8 @@
   ],
   "vi": [
     "ms",
-    "sk",
-    "nl",
-    "pt",
-    "hu",
-    "sv",
-    "ro",
     "fr",
-    "en",
-    "it",
-    "pl",
-    "es",
-    "id",
-    "de",
-    "nb",
-    "cs",
-    "tl",
-    "da",
-    "ca",
-    "fi",
-    "tr"
+    "en"
   ],
   "zh": [
     "zh-Hans"
