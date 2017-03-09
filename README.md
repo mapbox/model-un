@@ -9,7 +9,7 @@ A library that provides [IETF language tags](https://en.wikipedia.org/wiki/IETF_
 ### Usage:
 
 ```
-var mun = require('model-un');
+var mun = require('@mapbox/model-un');
 
 // functions take either:
 // a 2-3 letter (ISO 639-1 preferred, 639-2B - 2T fallback) language code or a language name
