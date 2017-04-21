@@ -2,6 +2,7 @@ var languages = require('./data/languages');
 var language_ref = require('./data/languageref');
 var countries = require('./data/countries');
 var country_ref = require('./data/countryref');
+var fallback = require('./data/fallback');
 
 module.exports = {};
 
@@ -71,7 +72,7 @@ module.exports.getAllCountriesLike = function(str) {
 // A 2 digit country code will return an array of language codes
 // or false if invalid cc or no value for that cc
 module.exports.getOfficialLanguages = function(cc, options) {
-    if (!options) options = {};    
+    if (!options) options = {};
 
     var val = country_ref[cc.toLowerCase()];
     val = val ? countries[val] : null;
@@ -100,6 +101,10 @@ module.exports.getOfficialLanguages = function(cc, options) {
     }
     if (val && val.length) return val;
     return false;
+}
+
+module.exports.fallback = function(str) {
+    return fallback[str] || fallback[str.split('-')[0]] || null;
 }
 
 function camelcase(str) {

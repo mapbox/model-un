@@ -44,7 +44,7 @@ function update_countries() {
 
 if (process.argv[2] == 'languages') update_languages();
 if (process.argv[2] == 'countries') update_countriess();
-if (process.argv[2] == 'all' || !process.argv[2]) { 
+if (process.argv[2] == 'all' || !process.argv[2]) {
     update_languages();
     update_countries();
 }
