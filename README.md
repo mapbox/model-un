@@ -65,6 +65,33 @@ mun.getOfficialLanguages('cz', {verbose: true});
 //  { type: 'language', subtag: 'sk', description: 'Slovak', added: '2005-10-16', 'suppress-script': 'Latn', '639_1': 'sk', '639_2B': 'slo', '639_2T': 'slk', name_en: [ 'Slovak' ] } 
 // ]
 
+mun.getTwoLetterLanguage('deu');
+// 'de'
+
+mun.getTwoLetterCountry('DEU');
+// 'DE'
+
+mun.getThreeLetterCountry('DE')
+// 'DEU'
+
+/* 
+There are ** 2 ** possible three-letter language codes for
+20 countries. ISO 639_2B specifies a 'bibliographic'
+code that is English-based, while ISO 639_2T specifies a 
+'terminological' code derived from the native name for the language.
+This latter T-code is generally preferred, including in future ISO
+standards. As an example, the language codes for German are:
+639_2B == 'ger' (from English 'German')
+639_2T == 'deu' (from German 'Deutsch')
+By default, this function returns the T-code if available.
+However, this can be overridden by adding `true` after the language
+code to fill the optional boolean parameter `prefer_b`.
+*/
+
+mun.getThreeLetterLanguage('de')
+// 'deu'
+mun.getThreeLetterLanguage('de',true)
+// 'ger'
 
 ```
 

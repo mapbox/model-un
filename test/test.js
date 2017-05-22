@@ -58,12 +58,18 @@ tape('update script', function(assert) {
 tape('hasLanguage', function(assert) {
     assert.equal(mun.hasLanguage('en'), true, 'en');
     assert.equal(mun.hasLanguage('EN'), false, 'EN');
+    assert.equal(mun.hasLanguage('eng'), true, 'eng');
+    assert.equal(mun.hasLanguage('de'), true, 'de');
+    assert.equal(mun.hasLanguage('deu'), true, 'deu');
+    assert.equal(mun.hasLanguage('ger'), true, 'ger');
 
     assert.equal(mun.hasLanguage('en-US'), true, 'en-US');
+    assert.equal(mun.hasLanguage('eng-US'), true, 'eng-US');
     assert.equal(mun.hasLanguage('en-US-Latn'), true, 'en-US-Latn');
     assert.equal(mun.hasLanguage('en-Fake'), false, 'en-Fake');
 
     assert.equal(mun.hasLanguage('en_US'), true, 'en_US');
+    assert.equal(mun.hasLanguage('eng_US'), true, 'eng_US');
     assert.equal(mun.hasLanguage('en_US_Latn'), true, 'en_US_Latn');
     assert.equal(mun.hasLanguage('en_Fake'), false, 'en_Fake');
 
@@ -247,3 +253,27 @@ tape('getOfficialLanguages', function(assert) {
 
     assert.end();
 });
+
+tape('getTwoLetterLanguage', function(assert) {
+    assert.equal(mun.getTwoLetterLanguage('eng'),'en','en');
+    assert.equal(mun.getTwoLetterLanguage('deu'),'de','deu -> de');
+    assert.equal(mun.getTwoLetterLanguage('ger'),'de','ger -> de');
+    assert.equal(mun.getTwoLetterLanguage('de'),'de','de -> de');
+    assert.equal(mun.getTwoLetterLanguage('dex'),false,'dex -> false');
+    assert.end();
+});
+
+tape('getThreeLetterLanguage', function(assert) {
+    assert.equal(mun.getThreeLetterLanguage('de'),'deu','de -> deu; default T-code if present');
+    assert.equal(mun.getThreeLetterLanguage('de',true),'ger','de -> ger with B-code preferred');
+    assert.equal(mun.getThreeLetterLanguage('deu'),'deu','deu -> deu; default T-code preserved if present');
+    assert.equal(mun.getThreeLetterLanguage('deu',true),'ger','deu -> ger with B-code preferred');
+    assert.equal(mun.getThreeLetterLanguage('ru'),'rus','ru -> rus');
+    assert.equal(mun.getThreeLetterLanguage('zz'),false,'zz -> false');
+    assert.end();
+});
+
+
+
+
+
