@@ -110,7 +110,9 @@ module.exports.getOfficialLanguages = function(cc, options) {
 
 module.exports.getTwoLetterLanguage = function(str) {
     str = str.toLowerCase();
-    if (language_ref[str]) return languages[language_ref[str]]['639_1'];
+    if (language_ref[str]) {
+        if (languages[language_ref[str]]['639_1']) return languages[language_ref[str]]['639_1'];
+    }
     return false;
 }
 
@@ -122,11 +124,8 @@ module.exports.getTwoLetterCountry = function(str) {
 
 module.exports.getThreeLetterCountry = function(str) {
     str = str.toLowerCase();
-    if (country_ref[str]) {
-        if (countries[country_ref[str]]['iso3']) return countries[country_ref[str]]['iso3'];
-    } else {
+    if (country_ref[str]) return countries[country_ref[str]]['iso3'];
     return false;
-    }
 }
 
 module.exports.getThreeLetterLanguage = function(str,prefer_b) {
@@ -147,12 +146,6 @@ module.exports.getThreeLetterLanguage = function(str,prefer_b) {
             }
         }
     }
-    return false;
-}
-
-module.exports.getThreeLetterCountry = function(str) {
-    str = str.toLowerCase();
-    if (country_ref[str]) return countries[country_ref[str]]['iso3'];
     return false;
 }
 
