@@ -129,7 +129,7 @@ module.exports.getThreeLetterCountry = function(str) {
 }
 
 module.exports.getThreeLetterLanguage = function(str,prefer_b) {
-    let b_preferred = null;
+    var b_preferred = null;
     if (!prefer_b) {
         b_preferred = false;
     } else {
