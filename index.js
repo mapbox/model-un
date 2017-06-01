@@ -128,15 +128,15 @@ module.exports.getThreeLetterCountry = function(str) {
     return false;
 }
 
-module.exports.getThreeLetterLanguage = function(str,preferB) {
-    if (!preferB) {
-        let preferB = false;
+module.exports.getThreeLetterLanguage = function(str,prefer_b) {
+    if (!prefer_b) {
+        let b_preferred = false;
     } else {
-        let preferB = true;
+        let b_preferred = true;
     }
     str = str.toLowerCase();
     if (language_ref[str]) {
-        if (preferB === true) {
+        if (b_preferred === true) {
             return languages[language_ref[str]]['639_2B'];
         } else {
             if (languages[language_ref[str]]['639_2T']) {
