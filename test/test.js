@@ -259,7 +259,18 @@ tape('getTwoLetterLanguage', function(assert) {
     assert.equal(mun.getTwoLetterLanguage('deu'),'de','deu -> de');
     assert.equal(mun.getTwoLetterLanguage('ger'),'de','ger -> de');
     assert.equal(mun.getTwoLetterLanguage('de'),'de','de -> de');
-    assert.equal(mun.getTwoLetterLanguage('dex'),false,'dex -> false');
+    assert.equal(mun.getTwoLetterLanguage('bin'),false,'language with only three letter code "bin" -> false');
+    assert.equal(mun.getTwoLetterLanguage('dex'),false,'non-existent language code "dex" -> false');
+    assert.end();
+});
+
+tape('getTwoLetterCountry',function(assert) {
+    assert.equal();
+    assert.end();
+});
+
+tape('getThreeLetterCountry',function(assert) {
+    assert.equal();
     assert.end();
 });
 
@@ -269,7 +280,7 @@ tape('getThreeLetterLanguage', function(assert) {
     assert.equal(mun.getThreeLetterLanguage('deu'),'deu','deu -> deu; default T-code preserved if present');
     assert.equal(mun.getThreeLetterLanguage('deu',true),'ger','deu -> ger with B-code preferred');
     assert.equal(mun.getThreeLetterLanguage('ru'),'rus','ru -> rus');
-    assert.equal(mun.getThreeLetterLanguage('zz'),false,'zz -> false');
+    assert.equal(mun.getThreeLetterLanguage('zz'),false,'non-existent langauge code "zz" -> false');
     assert.end();
 });
 
