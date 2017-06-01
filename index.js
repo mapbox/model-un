@@ -129,10 +129,11 @@ module.exports.getThreeLetterCountry = function(str) {
 }
 
 module.exports.getThreeLetterLanguage = function(str,prefer_b) {
+    let b_preferred = null;
     if (!prefer_b) {
-        let b_preferred = false;
+        b_preferred = false;
     } else {
-        let b_preferred = true;
+        b_preferred = true;
     }
     str = str.toLowerCase();
     if (language_ref[str]) {
