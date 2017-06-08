@@ -91,6 +91,7 @@ tape('hasCountry', function(assert) {
 
     assert.equal(mun.hasCountry('Dinotopia'), false, 'Dinotopia');
     assert.equal(mun.hasCountry('DT'), false, 'DT');
+    assert.equal(mun.hasCountry('DTP'), false, 'DTP');
     assert.end();
 });
 
@@ -196,6 +197,7 @@ tape('getLanguage -- by three-letter code', function(assert) {
 
     /*
     // Do we need to support three-letter (ISO-3) country codes in the getLanguage function?
+    // For now, assuming 'no'.
     var usa = mun.getLanguage('USA');
     console.log('\n\nusa = \n', usa);
     assert.equal(usa.type, 'region', 'us');
@@ -226,12 +228,13 @@ tape('getLanguage -- by three-letter code', function(assert) {
     assert.equal(engUS[1].subtag, 'US', 'eng_US');
     
     /*
-    var boont = mun.getLanguage('en-boont');
-    assert.equal(boont.type, 'redundant', 'en-boont');
-    assert.equal(boont.description, 'Boontling', 'en-boont');
-    assert.equal(boont.tag, 'en-boont', 'en-boont');
+    // Do we need to cover cases like this? 
+    // Seems like support for a legacy specification, so saying 'no' for now.
+    var boont = mun.getLanguage('eng-boont');
+    assert.equal(boont.type, 'redundant', 'eng-boont');
+    assert.equal(boont.description, 'Boontling', 'eng-boont');
+    assert.equal(boont.tag, 'en-boont', 'eng-boont');
     */
-
 
     assert.end();
 });
@@ -266,7 +269,7 @@ tape('getLanguage -- by name', function(assert) {
 });
 
 tape('getCountry', function(assert) {
-    var gb;
+    var gb, gbr;
 
     assert.notOk(mun.getCountry('Great Britain'), 'Great Britain');
     assert.notOk(mun.getCountry('England'), 'England');
@@ -277,14 +280,21 @@ tape('getCountry', function(assert) {
     assert.equal(gb.iso, 'GB', 'United Kingdom');
     assert.equal(gb['iso3'], 'GBR', 'United Kingdom');
 
-
     assert.notOk(mun.getCountry('UK'), 'UK');
+
     gb = mun.getCountry('GB');
     assert.equal(gb.country, 'United Kingdom', 'GB');
     assert.equal(gb.capital, 'London', 'GB');
     assert.equal(gb.continent, 'EU', 'GB');
     assert.equal(gb.iso, 'GB', 'GB');
     assert.equal(gb['iso3'], 'GBR', 'GB');
+
+    gbr = mun.getCountry('GBR');
+    assert.equal(gb.country, 'United Kingdom', 'GBR');
+    assert.equal(gb.capital, 'London', 'GBR');
+    assert.equal(gb.continent, 'EU', 'GBR');
+    assert.equal(gb.iso, 'GB', 'GBR');
+    assert.equal(gb['iso3'], 'GBR', 'GBR');
     
     assert.end();
 });
@@ -295,6 +305,13 @@ tape('getOfficialLanguages', function(assert) {
     assert.equal(l[0], 'hy');
 
     l = mun.getOfficialLanguages('AM', {verbose: true});
+    assert.equal(l.length, 1);
+    assert.equal(l[0].type, 'language');
+    assert.equal(l[0].subtag, 'hy');
+    assert.equal(l[0]['suppress-script'], 'Armn');
+    assert.equal(l[0].description, 'Armenian');
+
+    l = mun.getOfficialLanguages('ARM', {verbose: true});
     assert.equal(l.length, 1);
     assert.equal(l[0].type, 'language');
     assert.equal(l[0].subtag, 'hy');
@@ -351,7 +368,7 @@ tape('getThreeLetterLanguageCode', function(assert) {
     assert.equal(mun.getThreeLetterLanguageCode('deu'),'deu','deu -> deu; default T-code preserved if present');
     assert.equal(mun.getThreeLetterLanguageCode('deu',true),'ger','deu -> ger with B-code preferred');
     assert.equal(mun.getThreeLetterLanguageCode('ru'),'rus','ru -> rus');
-    assert.equal(mun.getThreeLetterLanguageCode('zz'),false,'non-existent langauge code "zz" -> false');
+    assert.equal(mun.getThreeLetterLanguageCode('zz'),false,'non-existent language code "zz" -> false');
     assert.end();
 });
 
