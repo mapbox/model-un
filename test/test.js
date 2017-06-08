@@ -85,6 +85,8 @@ tape('hasLanguage', function(assert) {
 tape('hasCountry', function(assert) {
     assert.equal(mun.hasCountry('US'), true, 'US');
     assert.equal(mun.hasCountry('us'), true, 'us');
+    assert.equal(mun.hasCountry('USA'), true, 'USA');
+    assert.equal(mun.hasCountry('usa'), true, 'usa');
 
     assert.equal(mun.hasCountry('United States'), true, 'United States');
     assert.equal(mun.hasCountry('united states'), true, 'united states');
