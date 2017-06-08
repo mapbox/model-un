@@ -108,34 +108,34 @@ module.exports.getOfficialLanguages = function(cc, options) {
     return false;
 }
 
-module.exports.getTwoLetterLanguage = function(str) {
-    str = str.toLowerCase();
+module.exports.getTwoLetterLanguageCode = function(str) {
+    // str = str.toLowerCase(); // For now, responsibility for lowercasing falls to caller.
     if (language_ref[str]) {
         if (languages[language_ref[str]]['639_1']) return languages[language_ref[str]]['639_1'];
     }
     return false;
 }
 
-module.exports.getTwoLetterCountry = function(str) {
-    str = str.toLowerCase();
+module.exports.getTwoLetterCountryCode = function(str) {
+    str = str.toLowerCase(); // Lowercasing appears to be the way model-un works with country codes internally.
     if (country_ref[str]) return countries[country_ref[str]]['iso'];
     return false;
 }
 
-module.exports.getThreeLetterCountry = function(str) {
-    str = str.toLowerCase();
+module.exports.getThreeLetterCountryCode = function(str) {
+    str = str.toLowerCase(); // Lowercasing appears to be the way model-un works with country codes internally.
     if (country_ref[str]) return countries[country_ref[str]]['iso3'];
     return false;
 }
 
-module.exports.getThreeLetterLanguage = function(str,prefer_b) {
+module.exports.getThreeLetterLanguageCode = function(str,prefer_b) {
     var b_preferred = null;
     if (!prefer_b) {
         b_preferred = false;
     } else {
         b_preferred = true;
     }
-    str = str.toLowerCase();
+    // str = str.toLowerCase(); // For now, responsibility for lowercasing falls to caller.
     if (language_ref[str]) {
         if (b_preferred === true) {
             return languages[language_ref[str]]['639_2B'];

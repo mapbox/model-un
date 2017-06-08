@@ -122,7 +122,7 @@ tape('getAllCountriesLike', function(assert) {
     assert.end();
 });
 
-tape('getLanguage -- by code', function(assert) {
+tape('getLanguage -- by two-letter code', function(assert) {
     var en = mun.getLanguage('en');
     assert.equal(en.type, 'language', 'en');
     assert.equal(en.description, 'English', 'en');
@@ -171,6 +171,67 @@ tape('getLanguage -- by code', function(assert) {
     assert.equal(boont.type, 'redundant', 'en-boont');
     assert.equal(boont.description, 'Boontling', 'en-boont');
     assert.equal(boont.tag, 'en-boont', 'en-boont');
+
+
+
+    assert.end();
+});
+
+tape('getLanguage -- by three-letter code', function(assert) {
+    var eng = mun.getLanguage('eng');
+    assert.equal(eng.type, 'language', 'eng');
+    assert.equal(eng.description, 'English', 'eng');
+    assert.equal(eng.subtag, 'en', 'eng');
+    assert.equal(eng['639_1'], 'en', 'eng');
+    assert.equal(eng['639_2B'], 'eng', 'eng');
+    assert.equal(eng.name_en[0], 'English', 'eng');
+
+    var rus = mun.getLanguage('rus');
+    assert.equal(rus.type, 'language', 'rus');
+    assert.equal(rus.description, 'Russian', 'rus');
+    assert.equal(rus.subtag, 'ru', 'rus');
+    assert.equal(rus['639_1'], 'ru', 'rus');
+    assert.equal(rus['639_2B'], 'rus', 'rus');
+    assert.equal(rus.name_en[0], 'Russian', 'rus');
+
+    /*
+    // Do we need to support three-letter (ISO-3) country codes in the getLanguage function?
+    var usa = mun.getLanguage('USA');
+    console.log('\n\nusa = \n', usa);
+    assert.equal(usa.type, 'region', 'us');
+    assert.equal(usa.description, 'United States', 'us');
+    assert.equal(usa.subtag, 'US', 'us');
+    */
+
+    // will construct an array for language codes
+    // with IETF subtags
+    var engUS = mun.getLanguage('eng-US');
+    assert.equal(engUS.length, 2, 'eng-US');
+    assert.equal(engUS[0].type, 'language', 'eng-US');
+    assert.equal(engUS[0].description, 'English', 'eng-US');
+    assert.equal(engUS[0].subtag, 'en', 'eng-US');
+    assert.equal(engUS[1].type, 'region', 'eng-US');
+    assert.equal(engUS[1].description, 'United States', 'eng-US');
+    assert.equal(engUS[1].subtag, 'US', 'eng-US');
+
+    // will construct an array for language codes
+    // with IETF subtags
+    var engUS = mun.getLanguage('eng_US');
+    assert.equal(engUS.length, 2, 'eng_US');
+    assert.equal(engUS[0].type, 'language', 'eng_US');
+    assert.equal(engUS[0].description, 'English', 'eng_US');
+    assert.equal(engUS[0].subtag, 'en', 'eng_US');
+    assert.equal(engUS[1].type, 'region', 'eng_US');
+    assert.equal(engUS[1].description, 'United States', 'eng_US');
+    assert.equal(engUS[1].subtag, 'US', 'eng_US');
+    
+    /*
+    var boont = mun.getLanguage('en-boont');
+    assert.equal(boont.type, 'redundant', 'en-boont');
+    assert.equal(boont.description, 'Boontling', 'en-boont');
+    assert.equal(boont.tag, 'en-boont', 'en-boont');
+    */
+
 
     assert.end();
 });
@@ -254,33 +315,43 @@ tape('getOfficialLanguages', function(assert) {
     assert.end();
 });
 
-tape('getTwoLetterLanguage', function(assert) {
-    assert.equal(mun.getTwoLetterLanguage('eng'),'en','en');
-    assert.equal(mun.getTwoLetterLanguage('deu'),'de','deu -> de');
-    assert.equal(mun.getTwoLetterLanguage('ger'),'de','ger -> de');
-    assert.equal(mun.getTwoLetterLanguage('de'),'de','de -> de');
-    assert.equal(mun.getTwoLetterLanguage('bin'),false,'language with only three letter code "bin" -> false');
-    assert.equal(mun.getTwoLetterLanguage('dex'),false,'non-existent language code "dex" -> false');
+tape('getTwoLetterLanguageCode', function(assert) {
+    assert.equal(mun.getTwoLetterLanguageCode('eng'),'en','en');
+    assert.equal(mun.getTwoLetterLanguageCode('deu'),'de','deu -> de');
+    assert.equal(mun.getTwoLetterLanguageCode('ger'),'de','ger -> de');
+    assert.equal(mun.getTwoLetterLanguageCode('de'),'de','de -> de');
+    assert.equal(mun.getTwoLetterLanguageCode('bin'),false,'language with only three letter code "bin" -> false');
+    assert.equal(mun.getTwoLetterLanguageCode('dex'),false,'non-existent language code "dex" -> false');
     assert.end();
 });
 
-tape('getTwoLetterCountry',function(assert) {
-    assert.equal();
+tape('getTwoLetterCountryCode',function(assert) {
+    assert.equal(mun.getTwoLetterCountryCode('USA'),'US','USA -> US');
+    assert.equal(mun.getTwoLetterCountryCode('GBR'),'GB','GBR -> GB');
+    assert.equal(mun.getTwoLetterCountryCode('US'),'US','Two-letter valid code returned: US -> US');
+    assert.equal(mun.getTwoLetterCountryCode('GB'),'GB','Two-letter valid code returned: GB -> GB');
+    assert.equal(mun.getTwoLetterCountryCode('GBZ'),false,'Nonsense code GBZ -> false');
+    assert.equal(mun.getTwoLetterCountryCode('GC'),false,'Nonsense code GC -> false');
     assert.end();
 });
 
-tape('getThreeLetterCountry',function(assert) {
-    assert.equal();
+tape('getThreeLetterCountryCode',function(assert) {
+    assert.equal(mun.getThreeLetterCountryCode('US'),'USA','US -> USA');
+    assert.equal(mun.getThreeLetterCountryCode('GB'),'GBR','GB -> GBR');
+    assert.equal(mun.getThreeLetterCountryCode('USA'),'USA','Three-letter valid code returned: USA -> USA');
+    assert.equal(mun.getThreeLetterCountryCode('GBR'),'GBR','Three-letter valid code returned: GBR -> GBR');
+    assert.equal(mun.getThreeLetterCountryCode('GC'),false,'Nonsense code GC -> false');
+    assert.equal(mun.getThreeLetterCountryCode('GBZ'),false,'Nonsense code GBZ -> false');
     assert.end();
 });
 
-tape('getThreeLetterLanguage', function(assert) {
-    assert.equal(mun.getThreeLetterLanguage('de'),'deu','de -> deu; default T-code if present');
-    assert.equal(mun.getThreeLetterLanguage('de',true),'ger','de -> ger with B-code preferred');
-    assert.equal(mun.getThreeLetterLanguage('deu'),'deu','deu -> deu; default T-code preserved if present');
-    assert.equal(mun.getThreeLetterLanguage('deu',true),'ger','deu -> ger with B-code preferred');
-    assert.equal(mun.getThreeLetterLanguage('ru'),'rus','ru -> rus');
-    assert.equal(mun.getThreeLetterLanguage('zz'),false,'non-existent langauge code "zz" -> false');
+tape('getThreeLetterLanguageCode', function(assert) {
+    assert.equal(mun.getThreeLetterLanguageCode('de'),'deu','de -> deu; default T-code if present');
+    assert.equal(mun.getThreeLetterLanguageCode('de',true),'ger','de -> ger with B-code preferred');
+    assert.equal(mun.getThreeLetterLanguageCode('deu'),'deu','deu -> deu; default T-code preserved if present');
+    assert.equal(mun.getThreeLetterLanguageCode('deu',true),'ger','deu -> ger with B-code preferred');
+    assert.equal(mun.getThreeLetterLanguageCode('ru'),'rus','ru -> rus');
+    assert.equal(mun.getThreeLetterLanguageCode('zz'),false,'non-existent langauge code "zz" -> false');
     assert.end();
 });
 
