@@ -51,9 +51,15 @@ module.exports.getAllLanguagesLike = function(str) {
     var keys = Object.keys(language_ref);
     var length = keys.length;
     var matches = [];
+    var match_ind = -1;
     for (var i = 0; i < length; i++) {
         if (keys[i].toLowerCase().indexOf(str) >= 0) matches.push(keys[i]);
+        if (keys[i].toLowerCase() === str) {
+            const exact_match = matches.pop();
+            matches.unshift(exact_match);
+        }
     }
+
     return matches;
 }
 
@@ -99,6 +105,48 @@ module.exports.getOfficialLanguages = function(cc, options) {
         val = response;
     }
     if (val && val.length) return val;
+    return false;
+}
+
+module.exports.getTwoLetterLanguageCode = function(str) {
+    // str = str.toLowerCase(); // For now, responsibility for lowercasing falls to caller.
+    if (language_ref[str]) {
+        if (languages[language_ref[str]]['639_1']) return languages[language_ref[str]]['639_1'];
+    }
+    return false;
+}
+
+module.exports.getTwoLetterCountryCode = function(str) {
+    str = str.toLowerCase(); // Lowercasing appears to be the way model-un works with country codes internally.
+    if (country_ref[str]) return countries[country_ref[str]]['iso'];
+    return false;
+}
+
+module.exports.getThreeLetterCountryCode = function(str) {
+    str = str.toLowerCase(); // Lowercasing appears to be the way model-un works with country codes internally.
+    if (country_ref[str]) return countries[country_ref[str]]['iso3'];
+    return false;
+}
+
+module.exports.getThreeLetterLanguageCode = function(str,prefer_b) {
+    var b_preferred = null;
+    if (!prefer_b) {
+        b_preferred = false;
+    } else {
+        b_preferred = true;
+    }
+    // str = str.toLowerCase(); // For now, responsibility for lowercasing falls to caller.
+    if (language_ref[str]) {
+        if (b_preferred === true) {
+            return languages[language_ref[str]]['639_2B'];
+        } else {
+            if (languages[language_ref[str]]['639_2T']) {
+                return languages[language_ref[str]]['639_2T'];
+            } else {
+                return languages[language_ref[str]]['639_2B'];
+            }
+        }
+    }
     return false;
 }
 

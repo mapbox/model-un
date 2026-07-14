@@ -15,6 +15,9 @@ function update_languages() {
         language_ref[record.description] = i;
         if (record.subtag) language_ref[record.subtag] = i;
         if (record.tag) language_ref[record.tag] = i;
+        if (record["639_1"]) language_ref[record["639_1"]] = i;
+        if (record["639_2B"]) language_ref[record["639_2B"]] = i;
+        if (record["639_2T"]) language_ref[record["639_2T"]] = i;
     }
 
     var file = './data/languageref.json';
@@ -33,6 +36,7 @@ function update_countries() {
         record = countries[i];
         country_ref[record.country.toLowerCase()] = i;
         country_ref[record.iso.toLowerCase()] = i;
+        country_ref[record["iso3"].toLowerCase()] = i;
     }
 
     var file = './data/countryref.json';
@@ -43,7 +47,7 @@ function update_countries() {
 };
 
 if (process.argv[2] == 'languages') update_languages();
-if (process.argv[2] == 'countries') update_countriess();
+if (process.argv[2] == 'countries') update_countries();
 if (process.argv[2] == 'all' || !process.argv[2]) { 
     update_languages();
     update_countries();
